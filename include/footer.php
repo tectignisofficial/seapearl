@@ -47,7 +47,7 @@
                         <li><a href="contact.php">Contact</a></li>                       
                         <li><a href="activities.php">Activities</a></li>
                         <li><a href="place-to-visit.php">Place To Visit</a></li>
-                        <li><a href="privacy.php">Privacy</a></li>
+                        <li><a href="about-us.php">About Us</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-5">
