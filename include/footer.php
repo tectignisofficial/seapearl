@@ -30,9 +30,9 @@
                     <div class="ft-newslatter">
                         <h6>New latest</h6>
                         <p>Get the latest updates and offers.</p>
-                        <form action="#" class="fn-form">
-                            <input type="text" placeholder="Email">
-                            <button type="submit"><i class="fa fa-send"></i></button>
+                        <form action="footer-action.php" method="POST" class="fn-form">
+                            <input type="text" name="email" id="email" placeholder="Email">
+                            <button type="submit" name="submit"><i class="fa fa-send"></i></button>
                         </form>
                     </div>
                 </div>

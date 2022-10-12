@@ -64,6 +64,14 @@
           </a>
         </li>
         <li class="nav-item">
+          <a href="new_latest.php" class="nav-link">
+            <i class="nav-icon fas fa-solid fa-images"></i>
+            <p>
+            New latest
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
           <a href="contact.php" class="nav-link">
             <i class="nav-icon fas fa-solid fa-phone"></i>
             <p>
