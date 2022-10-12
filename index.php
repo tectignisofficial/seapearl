@@ -7,7 +7,7 @@
     <meta name="keywords" content="Sona, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sona | Template</title>
+    <title>Sea Pearl Khavane Resort | Index</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
@@ -57,31 +57,49 @@
                     <div class="booking-form">
                         <h3>Booking Your Hotel</h3>
                         <form action="#">
-                            <div class="check-date">
-                                <label for="date-in">Check In:</label>
-                                <input type="text" class="date-input" id="date-in">
-                                <i class="icon_calendar"></i>
+                            <div class="row">
+                                <div class="check-date col-6">
+                                    <label for="date-in">Check In:</label>
+                                    <input type="text" class="date-input" id="date-in">
+                                    <i class="icon_calendar"></i>
+                                </div>
+                                <div class="check-date col-6">
+                                    <label for="date-out">Check Out:</label>
+                                    <input type="text" class="date-input" id="date-out">
+                                    <i class="icon_calendar"></i>
+                                </div>
                             </div>
-                            <div class="check-date">
-                                <label for="date-out">Check Out:</label>
-                                <input type="text" class="date-input" id="date-out">
-                                <i class="icon_calendar"></i>
+                            <div class="row">
+                                <div class="col-12 check-date">
+                                    <label for="date-out">Name:</label>
+                                    <input type="text" class="form-control" id="">
+                                </div>
                             </div>
-                            <div class="select-option">
-                                <label for="guest">Guests:</label>
-                                <select id="guest">
-                                <option value="">0 Adults</option>
-                                <option value="">1 Adults</option>
-                                    <option value="">2 Adults</option>
-                                    <option value="">3 Adults</option>
-                                </select>
+                            <div class="row">
+                                <div class="col-12 check-date">
+                                    <label for="date-out">Mobile No:</label>
+                                    <input type="tel" class="form-control" id="">
+                                </div>
                             </div>
-                            <div class="select-option">
-                                <label for="room">Room:</label>
-                                <select id="room">
-                                    <option value="">1 Room</option>
-                                    <option value="">2 Room</option>
-                                </select>
+                            <div class="row">
+                                <div class="select-option col-6">
+                                    <label for="guest">Guests:</label>
+                                    <select id="guest">
+                                        <option value="" selected disabled>Adults</option>
+                                        <option value="">0 Adults</option>
+                                        <option value="">1 Adults</option>
+                                        <option value="">2 Adults</option>
+                                        <option value="">3 Adults</option>
+                                    </select>
+                                </div>
+                                <div class="select-option col-6">
+                                    <label for="room">Room:</label>
+                                    <select id="room">
+                                        <option value="" selected disabled>Room</option>
+                                        <option value="">1 Room</option>
+                                        <option value="">2 Room</option>
+                                    </select>
+                                </div>
                             </div>
                             <button type="submit">Check Availability</button>
                         </form>
@@ -106,11 +124,12 @@
                     <div class="about-text">
                         <div class="section-title">
                             <span>About Us</span>
-                            <h2>Welcome To The Hotel <br/>Sea Pearl Khavane</h2>
+                            <h2>Welcome To The Hotel <br />Sea Pearl Khavane</h2>
                         </div>
-                        <p class="f-para">Located near to Khavane Beach.  is one of the best and cheapest hotel in
-            Vengurla. We Here To Make Your Vacation Memorable Our promise at Sea Pearls is a premium standard of amenities and service with a true passion for the
-            environment.</p>
+                        <p class="f-para">Located near to Khavane Beach. is one of the best and cheapest hotel in
+                            Vengurla. We Here To Make Your Vacation Memorable Our promise at Sea Pearls is a premium
+                            standard of amenities and service with a true passion for the
+                            environment.</p>
                         <p class="s-para">So when it comes to booking the perfect hotel, vacation rental, resort,
                             apartment, guest house, or tree house, we’ve got you covered.</p>
                         <a href="about-us.php" class="primary-btn about-btn">Read More</a>
@@ -149,42 +168,52 @@
                     <div class="service-item">
                         <i class="flaticon-036-parking"></i>
                         <h4>Parking</h4>
-                        <p>Parking space is availaible in our owned land. It is safe to park your vehicle in front of Resort. Parking is not chargeable. 6 Cars can easily parked in front property of Resort.</p>
+                        <p>Parking space is availaible in our owned land. It is safe to park your vehicle in front of
+                            Resort. Parking is not chargeable. 6 Cars can easily parked in front property of Resort.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
                         <i class="flaticon-033-dinner"></i>
                         <h4>Restaurant</h4>
-                        <p>Sea Pearl Khavane Resort has its own restaurant setup put up on terrace. Very cool and calm place with lush green surroundings. Both Veg as well as Non veg food is served in Malvani Style.</p>
+                        <p>Sea Pearl Khavane Resort has its own restaurant setup put up on terrace. Very cool and calm
+                            place with lush green surroundings. Both Veg as well as Non veg food is served in Malvani
+                            Style.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
                         <i class="flaticon-026-bed"></i>
                         <h4>Power Backup</h4>
-                        <p>It's much more common for power to go out in Parule and Bhogwe. Everything gets powered down on power outage. We have Generator facility to restore power and avoid inconvienience to the guest.</p>
+                        <p>It's much more common for power to go out in Parule and Bhogwe. Everything gets powered down
+                            on power outage. We have Generator facility to restore power and avoid inconvienience to the
+                            guest.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
                         <i class="flaticon-024-towel"></i>
                         <h4>Activities</h4>
-                        <p>Scuba diving, Water sports(Jet Ski, Bump ride, banana boat, kayaking), Parasailing, Boating, Dolphin watch ride, Fishing, Arrangement of two wheeler and four wheeler for sightseeing.</p>
+                        <p>Scuba diving, Water sports(Jet Ski, Bump ride, banana boat, kayaking), Parasailing, Boating,
+                            Dolphin watch ride, Fishing, Arrangement of two wheeler and four wheeler for sightseeing.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
                         <i class="flaticon-044-clock-1"></i>
                         <h4>Security and safety</h4>
-                        <p>The whole resort with parking space is under security of CCTV cameras. Branded door Key locks are used. Balcony of each room has Glass partition. Housekeepers are local honest people.</p>
+                        <p>The whole resort with parking space is under security of CCTV cameras. Branded door Key locks
+                            are used. Balcony of each room has Glass partition. Housekeepers are local honest people.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
                         <i class="flaticon-012-cocktail"></i>
                         <h4>Swimming Pool</h4>
-                        <p>Well maintained Swimming pool having clean water is a main attraction. It is equipped with self filteration unit. Size of swimmming pool is 15 x 30 Sq. feet.</p>
+                        <p>Well maintained Swimming pool having clean water is a main attraction. It is equipped with
+                            self filteration unit. Size of swimmming pool is 15 x 30 Sq. feet.</p>
                     </div>
                 </div>
             </div>
@@ -335,7 +364,8 @@
                     <div class="testimonial-slider owl-carousel">
                         <div class="ts-item">
                             <p>"My family and my in-laws spent the new year in sea pearl khavane resort in khavane
-                                            beach. khavane beach is a beautiful place and should be on the must visit list of places if you love clean beach and costal climate.</p>
+                                beach. khavane beach is a beautiful place and should be on the must visit list of places
+                                if you love clean beach and costal climate.</p>
                             <div class="ti-author">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -373,7 +403,7 @@
     <!-- Testimonial Section End -->
 
     <!-- Blog Section Begin -->
-   
+
     <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->

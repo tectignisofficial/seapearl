@@ -7,7 +7,7 @@
     <meta name="keywords" content="Sona, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sona | Template</title>
+    <title>Sea Pearl Khavane Resort | Room Details</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
@@ -121,27 +121,49 @@
                     <div class="room-booking">
                         <h3>Your Reservation</h3>
                         <form action="#">
-                            <div class="check-date">
-                                <label for="date-in">Check In:</label>
-                                <input type="text" class="date-input" id="date-in">
-                                <i class="icon_calendar"></i>
+                            <div class="row">
+                                <div class="check-date col-6">
+                                    <label for="date-in">Check In:</label>
+                                    <input type="text" class="date-input" id="date-in">
+                                    <i class="icon_calendar"></i>
+                                </div>
+                                <div class="check-date col-6">
+                                    <label for="date-out">Check Out:</label>
+                                    <input type="text" class="date-input" id="date-out">
+                                    <i class="icon_calendar"></i>
+                                </div>
                             </div>
-                            <div class="check-date">
-                                <label for="date-out">Check Out:</label>
-                                <input type="text" class="date-input" id="date-out">
-                                <i class="icon_calendar"></i>
+                            <div class="row">
+                                <div class="col-12 check-date">
+                                    <label for="date-out">Name:</label>
+                                    <input type="text" class="form-control" id="">
+                                </div>
                             </div>
-                            <div class="select-option">
-                                <label for="guest">Guests:</label>
-                                <select id="guest">
-                                    <option value="">3 Adults</option>
-                                </select>
+                            <div class="row">
+                                <div class="col-12 check-date">
+                                    <label for="date-out">Mobile No:</label>
+                                    <input type="tel" class="form-control" id="">
+                                </div>
                             </div>
-                            <div class="select-option">
-                                <label for="room">Room:</label>
-                                <select id="room">
-                                    <option value="">1 Room</option>
-                                </select>
+                            <div class="row">
+                                <div class="col-6 select-option">
+                                    <label for="guest">Guests:</label>
+                                    <select id="guest">
+                                    <option value="" selected disabled>Adults</option>
+                                        <option value="">0 Adults</option>
+                                        <option value="">1 Adults</option>
+                                        <option value="">2 Adults</option>
+                                        <option value="">3 Adults</option>
+                                    </select>
+                                </div>
+                                <div class="col-6 select-option">
+                                    <label for="room">Room:</label>
+                                    <select id="room">
+                                    <option value="" selected disabled>Room</option>
+                                        <option value="">1 Room</option>
+                                        <option value="">2 Room</option>
+                                    </select>
+                                </div>
                             </div>
                             <button type="submit">Check Availability</button>
                         </form>
