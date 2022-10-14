@@ -135,10 +135,10 @@ if(isset($_GET['delid'])){
                         <td><?php echo $row['price1'];?></td>
                         <td><?php echo $row['price2'];?></td>
                         <td>
-                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                          <!-- <div class="btn-group" role="group" aria-label="Basic outlined example">
                             <button type="button" class="btn btn-sm btn-info m-1 useredit" data-bs-toggle="modal"
                               data-bs-target="#editModal" data-id='<?php echo $row['id']; ?>'><i
-                                class="fa fa-pen"></i></button>
+                                class="fa fa-pen"></i></button> -->
 
                             <a href="activities.php?delid=<?php echo $row['id']; ?>"><button type="button"
                                 onclick="return confirm('Are you sure you want to delete this item')"

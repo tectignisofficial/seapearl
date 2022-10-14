@@ -1,5 +1,23 @@
 <?php
 include("include/config.php");
+
+if(isset($_POST['submi'])){
+  $name=$_POST['name'];
+  $mobile_number=$_POST['number'];
+  $check_in=$_POST['check_in'];
+  $check_out=$_POST['check_out'];
+  $guests=$_POST['guests'];
+  $room=$_POST['room'];
+ 
+  $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
+  if($sql==1){
+    echo '<script>alert("Successfully submitted");</script>';
+    header("location:gallery.php");
+}else {
+    echo '<script>alert("oops...somthing went wrong");</script>';
+}
+        
+}
 ?>
 
 <!DOCTYPE html>
@@ -29,14 +47,6 @@ include("include/config.php");
 	<link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<style>
-		h2 {
-			text-align: center;
-			text-transform: capitalize;
-			color: rgb(88, 11, 151);
-			text-decoration: underline;
-			margin-top: 10px;
-		}
-
 		.gallery {
 			width: auto;
 			height: 100%;

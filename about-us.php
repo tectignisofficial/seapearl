@@ -1,3 +1,23 @@
+<?php
+if(isset($_POST['submi'])){
+  $name=$_POST['name'];
+  $mobile_number=$_POST['number'];
+  $check_in=$_POST['check_in'];
+  $check_out=$_POST['check_out'];
+  $guests=$_POST['guests'];
+  $room=$_POST['room'];
+ 
+  $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
+  if($sql==1){
+    echo '<script>alert("Successfully submitted");</script>';
+    header("location:about-us.php");
+}else {
+    echo '<script>alert("oops...somthing went wrong");</script>';
+}
+        
+}
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
