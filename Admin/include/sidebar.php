@@ -40,14 +40,6 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="place_to_visit.php" class="nav-link">
-            <i class="nav-icon fas fa-solid fa-map-marker-alt"></i>
-            <p>
-              Place to Visit
-            </p>
-          </a>
-        </li>
-        <li class="nav-item">
           <a href="testimonial.php" class="nav-link">
             <i class="nav-icon fas fa-solid fa-comment-dots"></i>
             <p>
@@ -76,6 +68,22 @@
             <i class="nav-icon fas fa-solid fa-phone"></i>
             <p>
               Contact
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="setting.php" class="nav-link">
+            <i class="nav-icon fas fa-solid fa-map-marker-alt"></i>
+            <p>
+             Settings
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="google.php" class="nav-link">
+            <i class="nav-icon fas fa-solid fa-map-marker-alt"></i>
+            <p>
+            Google Analytics
             </p>
           </a>
         </li>

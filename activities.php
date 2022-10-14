@@ -48,25 +48,68 @@ if(isset($_POST['submi'])){
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
-        .gal {
-            width: 100%;
-            height: 200px;
+    .gal {
+        /* width: 100%;
+        height: 200px; */
 
-        }
+    }
+    .box_style_3 {
+    background-color: #fafbfd;
+    padding: 25px 25px 15px 25px;
+    margin-bottom: 20px;
+}
+#general_facilities h3 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 18px;
+}
+#general_facilities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 34px;
+}
+#general_facilities ul li i {
+    font-size: 22px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.box_style_2 {
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    border: 1px solid #ddd;
+}
+.box_style_2 {
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    border: 1px solid #ddd;
+}
+.box_style_2 a.phone {
+    font-size: 26px;
+    display: block;
+    margin-bottom: 20px;
+    color: #00a651;
+}
+.box_style_2 i {
+    font-size: 52px;
+    margin-top: 10px;
+    display: inline-block;
+}
+    .card {
+        /* height: 500px; */
+    }
 
-        .card{
-            height: 500px;
-        }
-        .more {
-            display: none;}
+    .more {
+        display: none;
+    }
 
-            .myBtn{
-                cursor: pointer;
-            }
+    .myBtn {
+        cursor: pointer;
+    }
 
-            .readmore{
-                font-weight: initial;
-            }
+    .readmore {
+        font-weight: initial;
+    }
     </style>
 </head>
 
@@ -157,85 +200,88 @@ if(isset($_POST['submi'])){
     <!-- Breadcrumb Section End -->
 
     <!-- About Us Page Section Begin -->
-    <div class="container margin_60">
-        <div class="">
-            <div class="row">
-            <?php 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-12">
+                <div class="row">
+                    <?php 
                         $query=mysqli_query($conn,"select * from activities");
                             while($sql=mysqli_fetch_array($query))
                             {
                         ?>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
-                    <div class="card" style="border-radius:4%">
-                        <img src="Admin/dist/img/activities/<?php echo $sql['img']; ?>" class="gal" alt="Alps" style="border-radius:4%">
-                        <div class="cont">
-                            <h4><?php echo $sql['title']; ?></h4>
-                            <p><?php echo $sql['short_content']; ?><span class="dots">...</span><span class="more"><?php echo $sql['full_content']; ?> </span> <span class="myBtn readmore">Read more</span></p>
-                            <div class="price">from <strong>₹<?php echo $sql['price1']; ?></strong> /Per person<small></small>
-                            </div>
-                            <div class="price" <?php
-                            if($sql['price2'] == ''){ ?>
-                                style="display:none;"
-                           <?php }else{ ?>
-                            style="display:inline;"
-                          <?php  } ?>
-                            ?>from <strong>₹1300</strong> /Two person<small></small></div>
-                        </div>
-                    </div>
-                </div>
-                            <?php } ?>
-                <!-- <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="img\bhogwe-beach-view.jpg" class="gal" alt="Alps">
-                        <div class="cont">
-                            <h4>Scuba Diving In Vengurla</h4>
-                            <p>Scuba Diving in Vengurla is famous activity throughout <span class="dots">...</span><span class="more"> Maharashtra state. Amber Resort offers best Scuba Diving Packages in Vengurla with lowest rate, This is a cheapest scuba diving near Bhogwe beach. Scuba diving activity is easy to do for non swimmer’s too.</span> <span class="myBtn readmore">Read more</span></p>
-                            <div class="price">from <strong>₹750</strong> /person<small></small></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="img\bhogwe-beach-view.jpg" class="gal" alt="Alps">
-                        <div class="cont">
-                            <h4>Para sailing in Vengurla</h4>
-                            <p>Experience the bird’s eye view of the hypnotizing surround, <span class="dots">...</span><span class="more"> while you get to explore through and redefine adventure out on para sailing in Vengurla. Soar over the waves and experience thrill by Surrendering yourself to the ultimate and amazing watersports in Vengurla</span> <span class="myBtn readmore">Read more</span></p>
-                            <div class="price">from <strong>₹900</strong> /One person<small></small></div>
-                            <div class="price">from <strong>₹1300</strong> /Two person<small></small></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="img\bhogwe-beach-view.jpg" class="gal" alt="Alps">
-                        <div class="cont">
-                            <h4>3 Top Activities In Vengurla</h4>
-                            <p>3 Top Activities In Vengurla Include Jet sky Ride, <span class="dots">...</span><span class="more">Bananan Boat Ride and Bummper Ride.This Budget Package activity can be arranged and scheduled by Amber Resort Vengurla.</span> <span class="myBtn readmore">Read more</span></p>
-                            <div class="price">from <strong>₹600</strong> /One person<small></small></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="img\bhogwe-beach-view.jpg" class="gal" alt="Alps">
-                        <div class="cont">
-                            <h4>Backwater Ride In Vengurla</h4>
-                            <p>Enjoy the beautiful backwater boat ride with picturesque <span class="dots">...</span><span class="more">surrounding from Bhogwe Beach. This ride include bhogwe beach, Devbag Sangam Point, Tsunami Island. This Activities can be arranged and scheduled by Amber Resort Vengurla.</span> <span class="myBtn readmore">Read more</span></p>
-                            <div class="price">from <strong>₹1300</strong> /per Boat<small></small></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="img\bhogwe-beach-view.jpg" class="gal" alt="Alps">
-                        <div class="cont">
-                            <h4>Paramotor In Vengurla</h4>
-                            <p>The paramotor, a cool, metal contraption, can<span class="dots">...</span><span class="more"> seat one person at a time and you'll be accompanied by an experienced instructor. Once you take off, you'll be treated to scenic views of the expansive sea below, the sandy shores of the beach and the frothy waves that lap it. This Activities can be arranged and scheduled by Amber Resort Vengurla.</span> <span class="myBtn readmore">Read more</span></p>
-                            <div class="price">from <strong>₹2600</strong> /per Person<small></small></div>
-                        </div>
-                    </div>
-                </div>              -->
+                    <!-- <div class="col-12">
+                        <div class="card my-3" style="border-radius:4%">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <img src="Admin/dist/img/activities/<?php echo $sql['img']; ?>" class="img-fluid"
+                                        alt="Alps" style="border-radius:4%">
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="cont">
+                                        <h4><?php echo $sql['title']; ?></h4>
+                                        <p><?php echo $sql['short_content']; ?><span class="dots">...</span><span
+                                                class="more"><?php echo $sql['full_content']; ?> </span> <span
+                                                class="myBtn readmore">Read more</span></p>
+                                        <div class="price">from <strong>₹<?php echo $sql['price1']; ?></strong> /Per
+                                            person<small></small>
+                                        </div>
+                                        <div class="price" <?php
+                                             if($sql['price2'] == ''){ ?> style="display:none;" <?php }else{ ?> style="display:inline;"
+                                            <?php  } ?> ?>from <strong>₹1300</strong> /Two person<small></small>
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-12">
+                        <div class="card my-3" style="border-radius:4%">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <img src="Admin/dist/img/activities/<?php echo $sql['img']; ?>" class="img-fluid"
+                                        alt="Alps" style="border-radius:4%">
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="cont my-3">
+                                        <h4><?php echo $sql['title']; ?></h4>
+                                        <p><?php echo $sql['full_content']; ?></p>
+                                        <div class="price">from <strong>₹<?php echo $sql['price1']; ?></strong> /Per
+                                            person<small></small>
+                                        </div>
+                                        <div class="price" <?php
+                                             if($sql['price2'] == ''){ ?> style="display:none;" <?php }else{ ?> style="display:inline;"
+                                            <?php  } ?> ?>from <strong>₹1300</strong> /Two person<small></small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+            <div class="theiaStickySidebar">
+            <div class="box_style_3" id="general_facilities">
+				<h3>General facilities</h3>
+				<ul>
+					<li><i class="icon_set_2_icon-109"></i>Pickup/drop from beach</li>
+					<li><i class="icon-extinguisher"></i>Scuba Apparatus</li>
+					<li><i class="icon-building"></i>Changing Rooms</li>
+					<li><i class="icon-lock"></i>Locker System</li>
+					<li><i class="icon_set_1_icon-27"></i>Free Parking</li>
+				</ul>
+			</div>
+			<div class="box_style_2">
+				<i class="fa fa-phone icons"></i>
+				<h4>Need help? Call us</h4>
+				<a href="tel://918806985047" class="phone">+91 8806985047 / 8888053935</a>
+				<small>Monday to Sunday 8.00am - 9.30pm</small>
+			</div>
+
+            </div>
             </div>
         </div>
     </div>
@@ -268,23 +314,23 @@ if(isset($_POST['submi'])){
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-$(document).ready(function(){
-let dots = $('.dots').val();
-  let more = $('.more').val();
-  let myBtn = $('.myBtn').val();
+    $(document).ready(function() {
+        let dots = $('.dots').val();
+        let more = $('.more').val();
+        let myBtn = $('.myBtn').val();
 
-$('body').on('click', '.myBtn', function(){
-$(this).siblings('.more').css('display','inline');
-$(this).siblings('.dots').css('display','none');
-$(this).html('Read less').addClass('less').removeClass('myBtn');
-  });
+        $('body').on('click', '.myBtn', function() {
+            $(this).siblings('.more').css('display', 'inline');
+            $(this).siblings('.dots').css('display', 'none');
+            $(this).html('Read less').addClass('less').removeClass('myBtn');
+        });
 
-  $('body').on('click', '.less', function(){
-$(this).siblings('.more').css('display','none');
-$(this).siblings('.dots').css('display','inline');
-$(this).html('Read More').addClass('myBtn').removeClass('less');
-  });
-});
+        $('body').on('click', '.less', function() {
+            $(this).siblings('.more').css('display', 'none');
+            $(this).siblings('.dots').css('display', 'inline');
+            $(this).html('Read More').addClass('myBtn').removeClass('less');
+        });
+    });
     </script>
 </body>
 

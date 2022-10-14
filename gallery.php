@@ -24,220 +24,75 @@ if(isset($_POST['submi'])){
 <html lang="zxx">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="description" content="Sona Template">
-	<meta name="keywords" content="Sona, unica, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Sea Pearl Khavane Resort | Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sona Template">
+    <meta name="keywords" content="Sona, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sea Pearl Khavane Resort | Gallery</title>
 
-	<!-- Google Font -->
-	<link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
 
-	<!-- Css Styles -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-	<link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-	<link rel="stylesheet" href="css/flaticon.css" type="text/css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-	<link rel="stylesheet" href="css/nice-select.css" type="text/css">
-	<link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-	<link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<style>
-		.gallery {
-			width: auto;
-			height: 100%;
-			margin-top: 50px;
-			padding: 10px;
-			border-radius: 3%;
-			background-color: white;
-		}
-
-		.gal {
-			width: 250%;
-			height: 100%;
-			border-radius: 10%;
-
-		}
-
-		a.lightbox img {
-	/* height: 150px; */
-	border: 3px solid white;
-	box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
-	/* margin: 9px 20px 20px 55px; */
-      }
-
-	  .lightbox-target {
-    position: fixed;
-    top: -100%;
-    background: rgba(0, 0, 0, .7);
-    width: 100%;
-    opacity: 0;
-    z-index: 1;
-	  }
-
-	  .lightbox-target {
-	position: fixed;
-	top: -100%;
-	width: 100%;
-	background: rgba(0, 0, 0, .7);
-	width: 100%;
-	opacity: 0;
-	z-index: 1;
-	-webkit-transition: opacity .5s ease-in-out;
-	-moz-transition: opacity .5s ease-in-out;
-	-o-transition: opacity .5s ease-in-out;
-	transition: opacity .5s ease-in-out;
-	overflow: hidden;
-
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="glightbox/css/glightbox.min.css" rel="stylesheet">
+<style>
+	.gslide-description, .description-bottom{
+		display: none !important;
+	}
+	.img-fluid {
+    max-width: 100%;
+    height: 100%;
 }
+</style>
 
-/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
-
-.lightbox-target img {
-	margin: auto;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	max-height: 0%;
-	max-width: 0%;
-	border: 3px solid white;
-	box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
-	box-sizing: border-box;
-	-webkit-transition: .5s ease-in-out;
-	-moz-transition: .5s ease-in-out;
-	-o-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
-
-}
-
-/* Styles the close link, adds the slide down transition */
-
-.lightbox-close {
-	display: block;
-	width: 50px;
-	height: 50px;
-	box-sizing: border-box;
-	background: white;
-	color: black;
-	text-decoration: none;
-	position: absolute;
-	top: -80px;
-	right: 0;
-	-webkit-transition: .5s ease-in-out;
-	-moz-transition: .5s ease-in-out;
-	-o-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
-}
-
-/* Provides part of the "X" to eliminate an image from the close link */
-
-.lightbox-close:before {
-	content: "";
-	display: block;
-	height: 30px;
-	width: 1px;
-	background: black;
-	position: absolute;
-	left: 26px;
-	top: 10px;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-/* Provides part of the "X" to eliminate an image from the close link */
-
-.lightbox-close:after {
-	content: "";
-	display: block;
-	height: 30px;
-	width: 1px;
-	background: black;
-	position: absolute;
-	left: 26px;
-	top: 10px;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-}
-
-/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
-
-.lightbox-target:target {
-	opacity: 1;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	overflow: scroll;
-}
-
-.lightbox-target:target img {
-	max-height: 100%;
-	max-width: 100%;
-}
-
-.lightbox-target:target a.lightbox-close {
-	top: 23%;
-}
-
-		.img-responsive {
-			border-radius: 10px;
-		}
-
-		.modal-img {
-			width: 55%;
-		}
-
-		@media (max-width:768px) {
-			.modal-img {
-				width: 90%;
-			}
-		}
-	</style>
 </head>
 
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
 
-	<!-- Offcanvas Menu Section End -->
+    <!-- Offcanvas Menu Section End -->
 
-	<!-- Header Section Begin -->
-	<?php
+    <!-- Header Section Begin -->
+    <?php
     include("include/header.php");
     ?>
-	<!-- Header End -->
+    <!-- Header End -->
 
-	<!-- Breadcrumb Section Begin -->
-	<div class="breadcrumb-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="breadcrumb-text">
-						<h2>Gallery</h2>
-						<div class="bt-option">
-							<a href="./index.html">Home</a>
-							<span>Gallery</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Breadcrumb Section End -->
+    <!-- Breadcrumb Section Begin -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Gallery</h2>
+                        <div class="bt-option">
+                            <a href="./index.html">Home</a>
+                            <span>Gallery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section End -->
 
-	<!-- About Us Page Section Begin -->
-	<!-- <div class="container margin_60">
+    <!-- About Us Page Section Begin -->
+    <!-- <div class="container margin_60">
 		<section class="grid">
 			<div class="row">
 				<div class="gallery">
@@ -284,83 +139,152 @@ if(isset($_POST['submi'])){
 
 	</div> -->
 
-	<section class="my-5 py-5">
-		<div class="container">
-			<div class="tp-title-line-2"></div>
-			<div class="row mt-5" id="g">
-				<?php     
+    <section class="py-3 mb-3">
+        <div class="container">
+            <div class="tp-title-line-2"></div>
+          
+
+               
+
+
+
+                        <div class="row portfolio-container" data-aos="fade-up">
+
+
+						<?php     
                              $sql=mysqli_query($conn,"select * from gallery");
 
                              while($arr=mysqli_fetch_array($sql)){
                              ?>
-				<div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
-					<a class="lightbox" href="<?php echo $arr['name'] ?>">
-						<img src="Admin/dist/img/gallery/<?php echo $arr['img'];?>" alt="" class="img-responsive"
-							style="height:250px; width:300px;" /></a>
 
-					<div class="lightbox-target" id="<?php echo $arr['name'] ?>">
-						<img src="Admin/dist/img/gallery/<?php echo $arr['img'];?>" alt=""
-							class="img-responsive-modal-img" />
-						<a class="lightbox-close" href="#"></a>
-					</div>
-					<h4 class="uppercase title font-weight-5 pt-4 text-center "></h4>
-				</div>
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                                
 
-				<?php }  ?>
+                                <a href="Admin/dist/img/gallery/<?php echo $arr['img'];?>" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link text-center" title="Trusts & Hospitals">
+                                    <img src="Admin/dist/img/gallery/<?php echo $arr['img'];?>" class="img-fluid" alt="">
+                                </a>
+                            </div>
+							<?php }  ?>
+                        </div>
 
-				<!--end item-->
-			</div>
-		</div>
-
-	</section>
+               
 
 
-	<!-- Footer Section Begin -->
-	<?php
+
+
+
+            </div>
+
+    </section>
+
+
+    <!-- Footer Section Begin -->
+    <?php
     include("include/footer.php");
     ?>
-	<!-- Footer Section End -->
+    <!-- Footer Section End -->
 
-	<!-- Search model Begin -->
-	<div class="search-model">
-		<div class="h-100 d-flex align-items-center justify-content-center">
-			<div class="search-close-switch"><i class="icon_close"></i></div>
-			<form class="search-model-form">
-				<input type="text" id="search-input" placeholder="Search here.....">
-			</form>
-		</div>
-	</div>
-	<!-- Search model end -->
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
 
-	<!-- Js Plugins -->
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/jquery.nice-select.min.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
-	<script src="js/jquery.slicknav.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="glightbox/js/glightbox.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        let dots = $('.dots').val();
+        let more = $('.more').val();
+        let myBtn = $('.myBtn').val();
+
+        $('body').on('click', '.myBtn', function() {
+            $(this).siblings('.more').css('display', 'inline');
+            $(this).siblings('.dots').css('display', 'none');
+            $(this).html('Read less').addClass('less').removeClass('myBtn');
+        });
+
+        $('body').on('click', '.less', function() {
+            $(this).siblings('.more').css('display', 'none');
+            $(this).siblings('.dots').css('display', 'inline');
+            $(this).html('Read More').addClass('myBtn').removeClass('less');
+        });
+    });
+    </script>
+
+
+<script>
 	
-	<script>
-		$(document).ready(function () {
-			let dots = $('.dots').val();
-			let more = $('.more').val();
-			let myBtn = $('.myBtn').val();
+  /**
+   * Porfolio isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let portfolioContainer = select('.portfolio-container');
+    if (portfolioContainer) {
+      let portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: '.portfolio-item'
+      });
 
-			$('body').on('click', '.myBtn', function () {
-				$(this).siblings('.more').css('display', 'inline');
-				$(this).siblings('.dots').css('display', 'none');
-				$(this).html('Read less').addClass('less').removeClass('myBtn');
-			});
+      let portfolioFilters = select('#portfolio-flters li', true);
 
-			$('body').on('click', '.less', function () {
-				$(this).siblings('.more').css('display', 'none');
-				$(this).siblings('.dots').css('display', 'inline');
-				$(this).html('Read More').addClass('myBtn').removeClass('less');
-			});
-		});
-	</script>
+      on('click', '#portfolio-flters li', function(e) {
+        e.preventDefault();
+        portfolioFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        portfolioIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        portfolioIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+  /**
+   * Initiate portfolio lightbox 
+   */
+  const portfolioLightbox = GLightbox({
+    selector: '.portfolio-lightbox'
+  });
+
+  /**
+   * Portfolio details slider
+   */
+  new Swiper('.portfolio-details-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+</script>
 </body>
 
 </html>

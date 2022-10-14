@@ -19,7 +19,6 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                             <a href="https://api.whatsapp.com/send/?phone=918879253568&text&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a>
                         </div>
                         <a href="" class="bk-btn"  data-toggle="modal" data-target="#exampleModal">Booking Now</a>
-                        <a href="#" class="bk-btn">Booking Now</a>
                         <a href="#" class="bk-btn">Pay Now</a>
                     </div>
                 </div>
@@ -32,7 +31,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                 <div class="col-lg-2">
                     <div class="logo">
                         <a href="index.php">
-                            <img src="img\logo\ddd.jpeg" alt="">
+                            <img src="img\logo\ddd.jpeg" alt="" style="width:140%;">
                         </a>
                     </div>
                 </div>
@@ -44,7 +43,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                                 <li class=" <?= $page == 'about-us.php' ? 'active':'' ?>"><a href="./about-us.php">About Us</a></li>
                                 <li class=" <?= $page == 'rooms.php' ? 'active':'' ?>"><a href="./rooms.php">Rooms</a></li>
                                 <li class=" <?= $page == 'activities.php' ? 'active':'' ?>"><a href="./activities.php">Activities</a></li>
-                                <li class=" <?= $page == 'place-to-visit.php' ? 'active':'' ?>"><a href="./place-to-visit.php">Place To Visit</a></li>
+                                <li class=" <?= $page == 'place_to_visit.php' ? 'active':'' ?>"><a href="./place_to_visit.php">Place To Visit</a></li>
                                 <li class=" <?= $page == 'gallery.php' ? 'active':'' ?>"><a href="./gallery.php">Gallery</a></li>
                                 <li class=" <?= $page == 'contact.php' ? 'active':'' ?>"><a href="./contact.php">Contact</a></li>
                             </ul>

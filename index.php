@@ -1,24 +1,5 @@
-<?php
-include("include/config.php");
 
-if(isset($_POST['submit'])){
-  $name=$_POST['name'];
-  $mobile_number=$_POST['number'];
-  $check_in=$_POST['check_in'];
-  $check_out=$_POST['check_out'];
-  $guests=$_POST['guests'];
-  $room=$_POST['room'];
- 
-  $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
-  if($sql==1){
-    echo '<script>alert("Successfully submitted");</script>';
-    header("location:index.php");
-}else {
-    echo '<script>alert("oops...somthing went wrong");</script>';
-}
-        
-}
-?>
+<?php include("include/config.php"); ?>
 
 <!DOCTYPE html>
 <html lang="zxx">
@@ -84,31 +65,33 @@ if(isset($_POST['submit'])){
                             <div class="row">
                                 <div class="check-date col-6">
                                     <label for="date-in">Check In:</label>
-                                    <input type="text" class="date-input" name="check_in" id="check_in">
+                                    <!-- <input type="text" class="date-input" id="date-in"> -->
+                                    <input type="text" class="date-input" name="check_in" id="date-in">
                                     <i class="icon_calendar"></i>
                                 </div>
                                 <div class="check-date col-6">
                                     <label for="date-out">Check Out:</label>
-                                    <input type="text" class="date-input" name="check_out" id="check_out">
+                                    <input type="text" class="date-input" name="check_out" id="date-out" required>
                                     <i class="icon_calendar"></i>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 check-date">
                                     <label for="date-out">Name:</label>
-                                    <input type="text" class="form-control" name="name" id="name">
+                                    <input type="text" class="form-control" name="name" id="name" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 check-date">
                                     <label for="date-out">Mobile No:</label>
-                                    <input type="tel" class="form-control" name="number" id="number">
+                                    <!-- <input type="text" class="form-control" name="number" id="number" pattern="^\+(?:[0-9] ?){6,25}[0-9]$" required> -->
+                                    <input name="contact_no" type="text"  pattern="^\+(?:[0-9] ?){6,25}[0-9]$" maxlength="10" placeholder="+XX XXXXXXXXX" required="">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="select-option col-6">
                                     <label for="guest">Guests:</label>
-                                    <select name="guests" id="guests">
+                                    <select name="guests" id="guests" required>
                                         <option value="" selected disabled>Adults</option>
                                         <option value="0">0 Adults</option>
                                         <option value="1">1 Adults</option>
@@ -118,7 +101,7 @@ if(isset($_POST['submit'])){
                                 </div>
                                 <div class="select-option col-6">
                                     <label for="room">Room:</label>
-                                    <select name="room" id="room">
+                                    <select name="room" id="room" require>
                                         <option value="" selected disabled>Room</option>
                                         <option value="1">1 Room</option>
                                         <option value="2">2 Room</option>
@@ -456,8 +439,37 @@ if(isset($_POST['submit'])){
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+</body>
+<?php
+
+
+if(isset($_POST['submit'])){
+  $name=$_POST['name'];
+  $mobile_number=$_POST['number'];
+  $check_in=$_POST['check_in'];
+  $check_out=$_POST['check_out'];
+  $guests=$_POST['guests'];
+  $room=$_POST['room'];
+ 
+  $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
+  if($sql==1){
+     ?>
+    <script> swal({
+        title: "Successfully Book!",
+        text: "You clicked the button!",
+        icon: "success",
+        timer: 3000,
+      });
+      </script> <?php
+    header("location:index.php");
+}else {
+    echo '<script>alert("oops...somthing went wrong");</script>';
+}
+        
+}
+?>
 <?php
 if(isset($_POST['submi'])){
   $name=$_POST['name'];
