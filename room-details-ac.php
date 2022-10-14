@@ -1,3 +1,25 @@
+<?php
+include("include/config.php");
+
+if(isset($_POST['submit'])){
+  $name=$_POST['name'];
+  $mobile_number=$_POST['number'];
+  $check_in=$_POST['check_in'];
+  $check_out=$_POST['check_out'];
+  $guests=$_POST['guests'];
+  $room=$_POST['room'];
+ 
+  $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
+  if($sql==1){
+    echo '<script>alert("Successfully submitted");</script>';
+    header("location:room-details-ac.php");
+}else {
+    echo '<script>alert("oops...somthing went wrong");</script>';
+}
+        
+}
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -115,53 +137,54 @@
                 <div class="col-lg-4">
                     <div class="room-booking">
                         <h3>Your Reservation</h3>
-                        <form action="#">
+                        <form method="POST">
                             <div class="row">
                                 <div class="check-date col-6">
                                     <label for="date-in">Check In:</label>
-                                    <input type="text" class="date-input" id="date-in">
+                                    <input type="text" class="date-input" name="check_in" id="check_in">
                                     <i class="icon_calendar"></i>
                                 </div>
                                 <div class="check-date col-6">
                                     <label for="date-out">Check Out:</label>
-                                    <input type="text" class="date-input" id="date-out">
+                                    <input type="text" class="date-input" name="check_out" id="check_out">
                                     <i class="icon_calendar"></i>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 check-date">
                                     <label for="date-out">Name:</label>
-                                    <input type="text" class="form-control" id="">
+                                    <input type="text" class="form-control" name="name" id="name">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 check-date">
                                     <label for="date-out">Mobile No:</label>
-                                    <input type="tel" class="form-control" id="">
+                                    <input type="tel" class="form-control" name="number" id="number">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-6 select-option">
+                                <div class="select-option col-6">
                                     <label for="guest">Guests:</label>
-                                    <select id="guest">
-                                    <option value="" selected disabled>Adults</option>
-                                        <option value="">0 Adults</option>
-                                        <option value="">1 Adults</option>
-                                        <option value="">2 Adults</option>
-                                        <option value="">3 Adults</option>
+                                    <select name="guests" id="guests">
+                                        <option value="" selected disabled>Adults</option>
+                                        <option value="0">0 Adults</option>
+                                        <option value="1">1 Adults</option>
+                                        <option value="2">2 Adults</option>
+                                        <option value="3">3 Adults</option>
                                     </select>
                                 </div>
-                                <div class="col-6 select-option">
+                                <div class="select-option col-6">
                                     <label for="room">Room:</label>
-                                    <select id="room">
-                                    <option value="" selected disabled>Room</option>
-                                        <option value="">1 Room</option>
-                                        <option value="">2 Room</option>
+                                    <select name="room" id="room">
+                                        <option value="" selected disabled>Room</option>
+                                        <option value="1">1 Room</option>
+                                        <option value="2">2 Room</option>
                                     </select>
                                 </div>
                             </div>
-                            <button type="submit">Check Availability</button>
+                            <button type="submit" name="submit" id="submit">Check Availability</button>
                         </form>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -197,4 +220,24 @@
     <script src="js/main.js"></script>
 </body>
 
+<!-- Booking Now modal Insert -->
+<?php
+if(isset($_POST['submi'])){
+    $name=$_POST['name'];
+    $mobile_number=$_POST['number'];
+    $check_in=$_POST['check_in'];
+    $check_out=$_POST['check_out'];
+    $guests=$_POST['guests'];
+    $room=$_POST['room'];
+   
+    $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
+    if($sql==1){
+      echo '<script>alert("Successfully submitted");</script>';
+      header("location:room-details.ac.php");
+  }else {
+      echo '<script>alert("oops...somthing went wrong");</script>';
+  }
+          
+  }
+?>
 </html>

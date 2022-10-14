@@ -46,13 +46,13 @@
                     <ul>
                         <li><a href="contact.php">Contact</a></li>                       
                         <li><a href="activities.php">Activities</a></li>
-                        <li><a href="place-to-visit.php">Place To Visit</a></li>
+                        <li><a href="place_to_visit.php">Place To Visit</a></li>
                         <li><a href="about-us.php">About Us</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-5">
                     <div class="co-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Sea Pearl Khavane Vengurla | All rights reserved <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Tectignis IT Solutions.</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Sea Pearl Khavane Vengurla | Developed by <a href="https://tectignis.in" target="_blank">Tectignis IT Solutions.</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                 </div>
             </div>

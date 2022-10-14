@@ -18,6 +18,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                             <a href="https://www.facebook.com/SeapearlKhavane" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="https://api.whatsapp.com/send/?phone=918879253568&text&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a>
                         </div>
+                        <a href="" class="bk-btn"  data-toggle="modal" data-target="#exampleModal">Booking Now</a>
                         <a href="#" class="bk-btn">Booking Now</a>
                         <a href="#" class="bk-btn">Pay Now</a>
                     </div>
@@ -79,7 +80,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
             <li><a href="./about-us.html">About Us</a></li>
             <li><a href="./rooms.html">Rooms</a></li>
             <li><a href="./activities.php">Activities</a></li>
-            <li><a href="./">Place To Visit</a></li>
+            <li><a href="./place_to_visit.php">Place To Visit</a></li>
             <li><a href="./gallery.php">Gallery</a></li>
             <li><a href="./contact.php">Contact</a></li>
         </ul>
@@ -95,3 +96,76 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
     </ul>
 </div>
 <!-- Offcanvas Menu Section End -->
+
+
+
+
+
+
+<!-- Booking now model Begin -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel" style="font-size: x-large;">Booking Now</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>            </div>
+            <div class="modal-body">
+            <div class="booking-form">
+                        <form method="POST">
+                            <div class="row">
+                                <div class="check-date col-6"> 
+                                    <label for="date-in">Check In:</label>
+                                    <input type="text" class="date-input" name="check_in" id="check_in">
+                                    <i class="icon_calendar"></i>
+                                </div>
+                                <div class="check-date col-6">
+                                    <label for="date-out">Check Out:</label>
+                                    <input type="text" class="date-input" name="check_out" id="check_out">
+                                    <i class="icon_calendar"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 check-date">
+                                    <label for="date-out">Name:</label>
+                                    <input type="text" class="form-control" name="name" id="name">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 check-date">
+                                    <label for="date-out">Mobile No:</label>
+                                    <input type="tel" class="form-control" name="number" id="number">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="select-option col-6">
+                                    <label for="guest">Guests:</label>
+                                    <select name="guests" id="guests">
+                                        <option value="" selected disabled>Adults</option>
+                                        <option value="0">0 Adults</option>
+                                        <option value="1">1 Adults</option>
+                                        <option value="2">2 Adults</option>
+                                        <option value="3">3 Adults</option>
+                                    </select>
+                                </div>
+                                <div class="select-option col-6">
+                                    <label for="room">Room:</label>
+                                    <select name="room" id="room">
+                                        <option value="" selected disabled>Room</option>
+                                        <option value="1">1 Room</option>
+                                        <option value="2">2 Room</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="submit" name="submi" id="submi">Check Availability</button>
+                        </form>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Booking now model end -->
+
