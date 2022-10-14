@@ -11,8 +11,8 @@
                         </div>
                         <p>We Provides Best Vacation Packages, <br> Book Now And Make Your Vacation Memorable <br> In Reasonable Prices.</p>
                         <div class="fa-social">
-                            <a href="https://www.facebook.com/SeapearlKhavane"><i class="fa fa-facebook"></i></a>
-                            <a href="https://api.whatsapp.com/send/?phone=918879253568&text&app_absent=0"><i class="fa fa-whatsapp"></i></a>
+                            <a href="https://www.facebook.com/SeapearlKhavane" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://api.whatsapp.com/send/?phone=918879253568&text&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
@@ -27,14 +27,14 @@
                     </div>
                 </div>
                 <div class="col-lg-3 offset-lg-1">
-                    <div class="ft-newslatter">
+                    <!-- <div class="ft-newslatter">
                         <h6>New latest</h6>
                         <p>Get the latest updates and offers.</p>
                         <form action="footer-action.php" method="POST" class="fn-form">
                             <input type="text" name="email" id="email" placeholder="Email">
                             <button type="submit" name="submit"><i class="fa fa-send"></i></button>
                         </form>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

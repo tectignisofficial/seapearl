@@ -376,7 +376,7 @@
                                 </div>
                                 <h5> - Vedant Naidu</h5>
                             </div>
-                            <img src="img/testimonial-logo.png" alt="">
+                            
                         </div>
                         <div class="ts-item">
                             <p>After a construction project took longer than expected, my husband, my daughter and I
@@ -393,7 +393,7 @@
                                 </div>
                                 <h5> - Aniket Nangare</h5>
                             </div>
-                            <img src="img/testimonial-logo.png" alt="">
+                            
                         </div>
                     </div>
                 </div>
