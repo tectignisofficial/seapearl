@@ -73,7 +73,7 @@
         </li>
         <li class="nav-item">
           <a href="setting.php" class="nav-link">
-            <i class="nav-icon fas fa-solid fa-map-marker-alt"></i>
+            <i class="nav-icon fas fa-th"></i>
             <p>
              Settings
             </p>
@@ -87,7 +87,14 @@
             </p>
           </a>
         </li>
-
+        <li class="nav-item">
+          <a href="changepassword.php" class="nav-link">
+            <i class="nav-icon fas fa-solid fa-key"></i>
+            <p>
+            Change Password
+            </p>
+          </a>
+        </li>
       </ul>
     </nav>
     <!-- /.sidebar-menu -->

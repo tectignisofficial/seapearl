@@ -90,11 +90,11 @@ h1, h2, h3, h4, h5, h6{-webkit-font-smoothing:antialiased; color:#222; font-weig
 
 h1.main_title_in {border-bottom:1px solid #ededed; text-align:center; padding:15px 15px 30px 15px; margin:0;}
 
-h1.main_title , h2.main_title{text-align:center; margin:0 0 30px  0; padding:0; font-size:42px; color:#ed5434; text-transform:uppercase;}
+h1.main_title , h2.main_title{text-align:center; margin:0 0 30px  0; padding:0; font-size:42px; color:#7b349f; text-transform:uppercase;}
 h1.main_title span, h2.main_title span {display:block; color:#999; font-size:24px; text-transform:none;}
 h1.main_title em, h2.main_title em{ display:block; width:40px; height:4px; background-color:#ededed; margin:auto;-webkit-border-radius: 5  px;-moz-border-radius: 5px;border-radius: 5px; margin-bottom:20px; }
 
-h3.main_title {text-align:center; margin:0 0 45px  0; padding:0; font-size:36px; color:#ed5434; text-transform:uppercase;}
+h3.main_title {text-align:center; margin:0 0 45px  0; padding:0; font-size:36px; color:#7b349f; text-transform:uppercase;}
 h3.main_title span {display:block; color:#999; font-size:18px; text-transform:none;}
 
 .promo_full_wp div h3{
@@ -143,7 +143,7 @@ h3.caption_header{letter-spacing:-1px; font-size: 42px; white-space:nowrap; colo
 
 /*General links color*/
 a {color: #111;text-decoration: none;-webkit-transition: all 0.2s ease;transition: all 0.2s ease; outline:none;}
-a:hover,a:focus {color:#ed5434;text-decoration: none; outline:none;}
+a:hover,a:focus {color:#7b349f;text-decoration: none; outline:none;}
 
 /*-------- 1.2 Buttons --------*/
 a.btn_full, .btn_full{
@@ -152,7 +152,7 @@ a.btn_full, .btn_full{
 	font-size: inherit;
 	color:#fff;
 	width:100%;
-	background: #ed5434;
+	background: #7b349f;
 	cursor: pointer;
 	padding: 12px 20px;
 	display: inline-block;
@@ -202,7 +202,7 @@ a.btn_1, .btn_1{
 	font-family: inherit;
 	font-size: inherit;
 	color:#fff;
-	background: #ed5434;
+	background: #7b349f;
 	cursor: pointer;
 	padding: 7px 15px;
 	display: inline-block;
@@ -224,8 +224,8 @@ a.btn_1_outline, .btn_1_outline{
 	border: none;
 	font-family: inherit;
 	font-size: inherit;
-	color:#ed5434;
-	border:2px solid #ed5434;
+	color:#7b349f;
+	border:2px solid #7b349f;
 	cursor: pointer;
 	padding: 7px 15px;
 	display: inline-block;
@@ -250,7 +250,7 @@ a.btn_slider, .btn_slider{
 	font-family: inherit;
 	font-size: inherit;
 	color:#fff;
-	background: #ed5434;
+	background: #7b349f;
 	cursor: pointer;
 	padding: 8px 20px;
 	display: inline-block;
@@ -266,11 +266,11 @@ a.btn_slider, .btn_slider{
 }
 a.btn_slider:hover, .btn_slider:hover{
 background: #fff;
-color:#ed5434;
+color:#7b349f;
 }
 
-a.btn_1.white, .btn_1.white  {background: #ed5434; color:#fff;}
-a.btn_1.white:hover, .btn_1.white a:hover, .btn_1.white:hover  {background: #fff; color:#ed5434 !important;}
+a.btn_1.white, .btn_1.white  {background: #7b349f; color:#fff;}
+a.btn_1.white:hover, .btn_1.white a:hover, .btn_1.white:hover  {background: #fff; color:#7b349f !important;}
 
 /*-------- 1.3 Structure --------*/
 
@@ -340,7 +340,7 @@ ul#lang_top li a.active{
 	font-size:16px;
 }
 #container_7 .btn_1:hover{
-	color:#ed5434;
+	color:#7b349f;
 	background-color:#fff;
 }
 #container_7 .loader{
@@ -355,7 +355,7 @@ ul#lang_top li a.active{
 	position:absolute;
 	top:50%;
 	right:-50px;
-	background-color:#ed5434;
+	background-color:#7b349f;
 	width:100px;
 	height:120px;
 	margin-top:-60px;
@@ -525,7 +525,7 @@ video {
 	cursor:pointer;
 }
 .room_list_desc h3{
-	color:#ed5434;
+	color:#7b349f;
 	font-size:20px;
 	margin-top:30px;
 }
@@ -620,7 +620,7 @@ ul#policies li i{
 	position:absolute;
 	left:-10px;
 	top:-5px;
-	color:#ed5434;
+	color:#7b349f;
 }
 a#phone_2{
 	display:block;
@@ -717,7 +717,7 @@ a#phone_2{
 	text-align:center;
 	border:1px solid #ededed;
 	padding:30px 30px 20px 30px;
-	border-top: 1px solid #ed5434;
+	border-top: 1px solid #7b349f;
 	background-color:#fff;
 }
 .box_feat i{
@@ -734,7 +734,7 @@ a#phone_2{
 	border-radius: 50%;
 	width:90px;
 	height:90px;
-	background-color:#ed5434;
+	background-color:#7b349f;
 }
 
 /*-------- 2.5 Gallery--------*/
@@ -791,7 +791,7 @@ a#phone_2{
 	height:100%;
 }
 .grid figcaption a:hover, .grid figcaption a:focus {
-    color: #ed5434;
+    color: #7b349f;
 }
 .grid figure:hover figcaption, .grid figure:focus figcaption {
     opacity: 1;
@@ -884,7 +884,7 @@ ul#cat_nav li a{
 }
 ul#cat_nav li a:hover, ul#cat_nav li a.active{
 	background:#f8f8f8;
-	color:#ed5434;
+	color:#7b349f;
 }
 /*-------- 2.7 Contact us --------*/
 #map {
@@ -937,7 +937,7 @@ ul#cat_nav li a:hover, ul#cat_nav li a.active{
          -o-animation: circle infinite .95s linear;
             animation: circle infinite .95s linear;
 
-    border: 2px solid #ed5434;
+    border: 2px solid #7b349f;
     border-top-color: rgba(0, 0, 0, .2);
     border-right-color: rgba(0, 0, 0, .2);
     border-bottom-color: rgba(0, 0, 0, .2);
@@ -1084,7 +1084,7 @@ select.form-control{
 .input-icon{position:absolute; right:6px; top:32px; width:28px; height:24px; background-color:#fff; text-align:right;}
 .input-icon i { color:#999; font-size:20px;}
 .form-control:focus {
-  border-color: #ed5434;
+  border-color: #7b349f;
   outline: 0;
   -webkit-box-shadow:none;
    box-shadow:none;
@@ -1092,7 +1092,7 @@ select.form-control{
 .form-control:focus.qty {
   border-color:#ccc;
 }
-.input-group button { background-color:#ed5434; color:#fff; border-color:#ed5434; height:38px; font-weight:500;}
+.input-group button { background-color:#7b349f; color:#fff; border-color:#7b349f; height:38px; font-weight:500;}
 .input-group button:hover, .input-group button:focus { background-color:#333; color:#fff; border-color:#333}
 
 #book_container .error_message{
@@ -1479,7 +1479,7 @@ hr.more_margin {
 }
 .panel-title a {display:block; color:#444;}
 .panel-default > .panel-heading {
-  background-color: #f9f9f9;
+  background-color: #efefef;
   padding:20px;
   border-bottom:1px solid #ddd;
 }
@@ -1495,7 +1495,7 @@ hr.more_margin {
 	line-height:1.6 !important;
 }
 .panel-title a .indicator{
-	color:#ed5434;
+	color:#7b349f;
 }
 .panel-title a:hover .indicator{
 	color:#333;

@@ -31,7 +31,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                 <div class="col-lg-2">
                     <div class="logo">
                         <a href="index.php">
-                            <img src="img\logo\ddd.jpeg" alt="" style="width:140%;">
+                            <img src="img\logo\ddd.jpeg" alt="" class="header-logo">
                         </a>
                     </div>
                 </div>
@@ -67,22 +67,23 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
     <div class="canvas-close">
         <i class="icon_close"></i>
     </div>
-    <div class="search-icon search-switch">
+    <!-- <div class="search-icon search-switch">
         <i class="icon_search"></i>
-    </div>
+    </div> -->
     <div class="header-configure-area">
+    <a href="#" class="bk-btn mb-1">Pay Now</a>
         <a href="#" class="bk-btn">Booking Now</a>
     </div>
     <nav class="mainmenu mobile-menu">
-        <ul>
-            <li class="active"><a href="./index.html">Home</a></li>
-            <li><a href="./about-us.html">About Us</a></li>
-            <li><a href="./rooms.html">Rooms</a></li>
-            <li><a href="./activities.php">Activities</a></li>
-            <li><a href="./place_to_visit.php">Place To Visit</a></li>
-            <li><a href="./gallery.php">Gallery</a></li>
-            <li><a href="./contact.php">Contact</a></li>
-        </ul>
+    <ul>
+                                <li  class=" <?= $page == 'index.php' ? 'active':'' ?>"><a href="./index.php">Home</a></li>
+                                <li class=" <?= $page == 'about-us.php' ? 'active':'' ?>"><a href="./about-us.php">About Us</a></li>
+                                <li class=" <?= $page == 'rooms.php' ? 'active':'' ?>"><a href="./rooms.php">Rooms</a></li>
+                                <li class=" <?= $page == 'activities.php' ? 'active':'' ?>"><a href="./activities.php">Activities</a></li>
+                                <li class=" <?= $page == 'place_to_visit.php' ? 'active':'' ?>"><a href="./place_to_visit.php">Place To Visit</a></li>
+                                <li class=" <?= $page == 'gallery.php' ? 'active':'' ?>"><a href="./gallery.php">Gallery</a></li>
+                                <li class=" <?= $page == 'contact.php' ? 'active':'' ?>"><a href="./contact.php">Contact</a></li>
+                            </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
     <div class="top-social">

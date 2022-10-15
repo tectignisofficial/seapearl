@@ -157,7 +157,7 @@ if(isset($_POST['submi'])){
                              while($arr=mysqli_fetch_array($sql)){
                              ?>
 
-                            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-card py-3">
                                 
 
                                 <a href="Admin/dist/img/gallery/<?php echo $arr['img'];?>" data-gallery="portfolioGallery"

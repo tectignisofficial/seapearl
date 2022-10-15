@@ -29,25 +29,42 @@ include("include/config.php");
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="place.css" type="text/css">
-	<style>
-		.theiaStickySidebar{
-			padding-top: 0px;
-    padding-bottom: 1px;
-    position: fixed;
-    top: 80px;
-    left: 104.5px;
-    width: 263px;
-		}
-	</style>
+    <link rel="stylesheet" href="placeIcon.css" type="text/css">
+
+
+    <style>
+    .theiaStickySidebar {
+        padding-top: 0px;
+        padding-bottom: 15px;
+        position: fixed;
+        top: 80px;
+        left: 104.5px;
+        /* width: 263px; */
+    }
+
+    ul#cat_nav li a:after {
+        content: "";
+        font-family: "FontAwesome";
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+    </style>
 </head>
 
 <body>
+
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
 
     <!-- Offcanvas Menu Section End -->
+
 
     <!-- Header Section Begin -->
     <?php
@@ -56,8 +73,8 @@ include("include/config.php");
     <!-- Header End -->
 
     <!-- Breadcrumb Section Begin -->
-    <div class="breadcrumb-section">
-        <div class="container">
+    <div class="container">
+        <div class="breadcrumb-section">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
@@ -72,13 +89,14 @@ include("include/config.php");
         </div>
     </div>
 
+    <section>
     <div class="container mt-3" style="transform: none;">
         <div class="row mb-3" style="transform: none;">
 
-            <div class="col-md-3" id="sidebar"
+            <div class="col-md-3 col-sm-12" id="sidebar"
                 style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
                 <div class="theiaStickySidebar"
-                    style="padding-top: 0px; padding-bottom: 1px; position: sticky; top: 80px; left: 104.5px;">
+                    style="padding-top: 0px; padding-bottom: 15px; position: sticky; top: 80px; left: 104.5px;">
                     <div id="faq_box">
                         <ul id="cat_nav">
                             <li><a href="#beaches" class="active">Beaches </a></li>
@@ -572,7 +590,7 @@ include("include/config.php");
             </div><!-- End col-md-9 -->
         </div><!-- End row -->
     </div>
-
+    </section>
 
 
 
@@ -604,7 +622,8 @@ include("include/config.php");
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-	<script src="place.js"></script>
+    <script src="place.js"></script>
+
 
     <script>
     $(document).ready(function() {
@@ -623,6 +642,15 @@ include("include/config.php");
             $(this).siblings('.dots').css('display', 'inline');
             $(this).html('Read More').addClass('myBtn').removeClass('less');
         });
+    });
+
+
+
+    /* Cat nav onclick active */
+    $('ul#cat_nav li a').on('click', function() {
+        'use strict';
+        $('ul#cat_nav li a.active').removeClass('active');
+        $(this).addClass('active');
     });
     </script>
 </body>

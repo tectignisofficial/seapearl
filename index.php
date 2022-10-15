@@ -85,7 +85,7 @@
                                 <div class="col-12 check-date">
                                     <label for="date-out">Mobile No:</label>
                                     <!-- <input type="text" class="form-control" name="number" id="number" pattern="^\+(?:[0-9] ?){6,25}[0-9]$" required> -->
-                                    <input name="contact_no" type="text"  pattern="^\+(?:[0-9] ?){6,25}[0-9]$" maxlength="10" placeholder="+XX XXXXXXXXX" required="">
+                                    <input name="contact_no" type="text" name="number"  pattern="^\(?:[0-9] ?){6,25}[0-9]$" maxlength="10" placeholder="" required="">
                                 </div>
                             </div>
                             <div class="row">
@@ -456,13 +456,22 @@ if(isset($_POST['submit'])){
   $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
   if($sql==1){
      ?>
+                  <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from SweetalertModal");
+                       
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
     <script> swal({
-        title: "Successfully Book!",
-        text: "You clicked the button!",
+        title: "<?php echo $arr['Sweetalert'];?>!",
+        // text: "You clicked the button!",
         icon: "success",
-        timer: 3000,
+        timer: 5000,
       });
-      </script> <?php
+      </script>
+      
+      <?php } ?> 
+      <?php
     header("location:index.php");
 }else {
     echo '<script>alert("oops...somthing went wrong");</script>';

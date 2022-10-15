@@ -1,5 +1,9 @@
 <?php
 include("include/config.php");
+session_start();
+if(!isset($_SESSION['id'])){
+    header("location:adminlogin.php");
+}
 
 if(isset($_POST['submit'])){
   $name=$_POST['name'];
