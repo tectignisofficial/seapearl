@@ -183,9 +183,9 @@ if(isset($_POST['submi'])){
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="gallery-item large-item set-bg" data-setbg="img/restaurant-near-bhogwe-beach-in-vengurla.jpg">
+                    <div class="gallery-item large-item set-bg" data-setbg="img/IMG_1012.webp">
                         <div class="gi-text">
-                            <h3>Restaurant of Sea Pearl Resort</h3>
+                            <h3>Sea Pearl Resort</h3>
                         </div>
                     </div>
                 </div>
