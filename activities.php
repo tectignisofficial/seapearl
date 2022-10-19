@@ -88,7 +88,7 @@ if(isset($_POST['submi'])){
     font-size: 26px;
     display: block;
     margin-bottom: 20px;
-    color: #00a651;
+    color: #0474ac;
 }
 .box_style_2 i {
     font-size: 52px;
@@ -221,7 +221,7 @@ if(isset($_POST['submi'])){
 			<div class="box_style_2">
 				<i class="fa fa-phone icons"></i>
 				<h4>Need help? Call us</h4>
-				<a href="tel://918806985047" class="phone">+91 8806985047 / 8888053935</a>
+				<a href="tel://917588817360" class="phone">+91 7588817360</a> <a href="tel://919370576066" class="phone">+91 9370576066</a>
 				<small>Monday to Sunday 8.00am - 9.30pm</small>
 			</div>
 

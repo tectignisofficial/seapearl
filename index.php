@@ -71,6 +71,17 @@
         line-height: 50px;
     }
 
+    .h4 {
+        margin-bottom: 1rem;
+    }
+
+    .p {
+        margin-bottom: 1.5rem;
+    }
+    .colDiv{
+        padding: 1rem ;
+    }
+
     @media (max-width: 768px) {
         .bk-btn2 {
             right: 35%;
@@ -80,6 +91,18 @@
         .video-section .video-text p {
             line-height: 28px;
         }
+
+        .h4 {
+            margin-bottom: 1rem;
+        }
+
+        .p {
+            margin-bottom: 3rem;
+        }
+        .colDiv{
+            padding: 1.5rem !important;
+        }
+
     }
 
     .imgSports {
@@ -103,10 +126,10 @@
         font-size: 14px;
         text-align: start;
     }
-    .set-bg {
-        background-attachment:fixed;
-    }
 
+    .set-bg {
+        background-attachment: fixed;
+    }
     </style>
 </head>
 
@@ -241,7 +264,7 @@
     </section>
     <!-- About Us Section End -->
 
-     <!-- Services Section End -->
+    <!-- Services Section End -->
     <section class="services-section spad">
         <div class="container">
             <div class="row">
@@ -470,15 +493,15 @@
                 <div class="col-lg-6 col-sm-12 p-1">
                     <div class="card shadow m-2">
                         <div class="row ">
-                            <div class="col-6 pb-0 mb-0 imgSports">
+                            <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSports">
                                 <img src="img/sports/scuba.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹1500 /Person</div>
                                 </div>
                             </div>
-                            <div class="col-6 p-3">
-                                <h4 class="mb-3">Scuba Diving</h4>
-                                <p class="mb-4">Sea Pearl Khavane offers best Scuba Diving Packages in Vengurla.</p>
+                            <div class="col-lg-6 col-sm-12 colDiv">
+                                <h4 class="h4">Scuba Diving</h4>
+                                <p class="p">Sea Pearl Khavane offers best Scuba Diving Packages in Vengurla.</p>
 
                                 <a href="rooms.php" class="bk-btn1">Book Now</a>
                             </div>
@@ -489,15 +512,15 @@
                 <div class="col-lg-6 col-sm-12 p-1">
                     <div class="card shadow m-2">
                         <div class="row ">
-                            <div class="col-6 pb-0 mb-0 imgSports">
+                            <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
                                 <img src="img/sports/waterSport.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹1500 /Person</div>
                                 </div>
                             </div>
-                            <div class="col-6 p-3">
-                                <h4 class="mb-3">Watersports</h4>
-                                <p class="mb-4">Sea Pearl Khavane offers best watersports Packages in Vengurla.</p>
+                            <div class="col-lg-6 col-sm-12 colDiv">
+                                <h4 class="h4">Watersports</h4>
+                                <p class="p">Sea Pearl Khavane offers best watersports Packages in Vengurla.</p>
 
                                 <a href="rooms.php" class="bk-btn1">Book Now</a>
                             </div>
@@ -508,15 +531,15 @@
                 <div class="col-lg-6 col-sm-12 p-1">
                     <div class="card shadow m-2">
                         <div class="row ">
-                            <div class="col-6 pb-0 mb-0 imgSports">
+                            <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
                                 <img src="img/sports/para.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹900 /One Person</div>
                                 </div>
                             </div>
-                            <div class="col-6 p-3">
-                                <h4 class="mb-3">Para Sailing</h4>
-                                <p class="mb-4">Sea Pearl Khavane offers best Para Sailing Packages in Vengurla.</p>
+                            <div class="col-lg-6 col-sm-12 colDiv">
+                                <h4 class="h4">Para Sailing</h4>
+                                <p class="p">Sea Pearl Khavane offers best Para Sailing Packages in Vengurla.</p>
 
                                 <a href="rooms.php" class="bk-btn1">Book Now</a>
                             </div>
@@ -527,15 +550,15 @@
                 <div class="col-lg-6 col-sm-12 p-1">
                     <div class="card shadow m-2">
                         <div class="row ">
-                            <div class="col-6 pb-0 mb-0 imgSports">
+                            <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
                                 <img src="img/sports/dolphin.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹1500 /Per Boat</div>
                                 </div>
                             </div>
-                            <div class="col-6 p-3">
-                                <h4 class="mb-3">Dolphin Ride</h4>
-                                <p class="mb-4">Sea Pearl Khavane offers best Dolphin Ride Packages in Vengurla.</p>
+                            <div class="col-lg-6 col-sm-12 colDiv">
+                                <h4 class="h4">Dolphin Ride</h4>
+                                <p class="p">Sea Pearl Khavane offers best Dolphin Ride Packages in Vengurla.</p>
 
                                 <a href="rooms.php" class="bk-btn1">Book Now</a>
                             </div>
