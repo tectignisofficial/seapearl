@@ -167,7 +167,7 @@ if(isset($_POST['submi'])){
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <div class="gallery-item set-bg" data-setbg="img/img2.jpg">
+                            <div class="gallery-item set-bg" data-setbg="img/img22.jpg">
                                 <div class="gi-text">
                                     <h3>Room Luxury</h3>
                                 </div>
@@ -182,13 +182,13 @@ if(isset($_POST['submi'])){
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-6">
+                <div class="col-lg-6">
                     <div class="gallery-item large-item set-bg" data-setbg="img/restaurant-near-bhogwe-beach-in-vengurla.jpg">
                         <div class="gi-text">
                             <h3>Restaurant of Sea Pearl Resort</h3>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
