@@ -1,4 +1,3 @@
-
 <?php include("include/config.php"); ?>
 
 <!DOCTYPE html>
@@ -27,10 +26,92 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="watersports.css" type="text/css">
+
+    <style>
+    .img-fluid {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .bk-btn1 {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 12px 28px 15px;
+        background: #0474ac;
+        color: #ffffff;
+        border: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: absolute;
+        /* right: 0; */
+        bottom: 15px;
+    }
+
+    .bk-btn2 {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 12px 28px 15px;
+        background: #0474ac;
+        color: #ffffff;
+        border: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: absolute;
+        right: 45%;
+        bottom: -165px;
+    }
+
+    .video-section .video-text p {
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 40px;
+        line-height: 50px;
+    }
+
+    @media (max-width: 768px) {
+        .bk-btn2 {
+            right: 35%;
+            bottom: -135px;
+        }
+
+        .video-section .video-text p {
+            line-height: 28px;
+        }
+    }
+
+    .imgSports {
+        position: relative;
+        text-align: center;
+    }
+
+    .centered {
+        position: relative;
+        /* top: 50%; */
+        left: 50%;
+        bottom: 26px;
+        transform: translate(-50%, -50%);
+    }
+
+    .text-block {
+        background-color: black;
+        color: white;
+        padding: 15px 15px 15px 15px;
+        opacity: 0.8;
+        font-size: 14px;
+        text-align: start;
+    }
+    .set-bg {
+        background-attachment:fixed;
+    }
+
+    </style>
 </head>
 
 <body>
-    
+
 
     <!-- Page Preloder -->
     <div id="preloder">
@@ -66,7 +147,7 @@
                                 <div class="check-date col-6">
                                     <label for="date-in">Check In:</label>
                                     <!-- <input type="text" class="date-input" id="date-in"> -->
-                                    <input type="text" class="date-input" name="check_in" id="date-in">
+                                    <input type="text" class="date-input" name="check_in" id="date-in" required>
                                     <i class="icon_calendar"></i>
                                 </div>
                                 <div class="check-date col-6">
@@ -85,7 +166,8 @@
                                 <div class="col-12 check-date">
                                     <label for="date-out">Mobile No:</label>
                                     <!-- <input type="text" class="form-control" name="number" id="number" pattern="^\+(?:[0-9] ?){6,25}[0-9]$" required> -->
-                                    <input name="contact_no" type="text" name="number"  pattern="^\(?:[0-9] ?){6,25}[0-9]$" maxlength="10" placeholder="" required="">
+                                    <input name="contact_no" type="text" name="number" pattern="[6-9]{1}[0-9]{9}"
+                                        maxlength="10" placeholder="" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -101,7 +183,7 @@
                                 </div>
                                 <div class="select-option col-6">
                                     <label for="room">Room:</label>
-                                    <select name="room" id="room" require>
+                                    <select name="room" id="room" required>
                                         <option value="" selected disabled>Room</option>
                                         <option value="1">1 Room</option>
                                         <option value="2">2 Room</option>
@@ -159,7 +241,7 @@
     </section>
     <!-- About Us Section End -->
 
-    <!-- Services Section End -->
+     <!-- Services Section End -->
     <section class="services-section spad">
         <div class="container">
             <div class="row">
@@ -355,6 +437,118 @@
     </section> -->
     <!-- Home Room Section End -->
 
+    <!-- Video Section Begin -->
+    <section class="video-section set-bg" data-setbg="img/video-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="video-text">
+                        <h2>Book Your Vacation Room.</h2>
+                        <p class="para">When your eyes feast on a visual delight of exotic tropical beauty, pristine
+                            sand kissing the shores of the Khavane beach, you know you’ve reached, the Sea Pearl,
+                            Snuggle up to the comfort.</p>
+                        <a href="rooms.php" class="bk-btn2 shadow">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video Section End -->
+
+    <!-- Services Section End -->
+    <section class="services-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Choice Of Sports</span>
+                        <h2>Watersports</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 p-1">
+                    <div class="card shadow m-2">
+                        <div class="row ">
+                            <div class="col-6 pb-0 mb-0 imgSports">
+                                <img src="img/sports/scuba.webp" class="img-fluid" alt="">
+                                <div class="centered">
+                                    <div class="text-block">From ₹1500 /Person</div>
+                                </div>
+                            </div>
+                            <div class="col-6 p-3">
+                                <h4 class="mb-3">Scuba Diving</h4>
+                                <p class="mb-4">Sea Pearl Khavane offers best Scuba Diving Packages in Vengurla.</p>
+
+                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 p-1">
+                    <div class="card shadow m-2">
+                        <div class="row ">
+                            <div class="col-6 pb-0 mb-0 imgSports">
+                                <img src="img/sports/waterSport.webp" class="img-fluid" alt="">
+                                <div class="centered">
+                                    <div class="text-block">From ₹1500 /Person</div>
+                                </div>
+                            </div>
+                            <div class="col-6 p-3">
+                                <h4 class="mb-3">Watersports</h4>
+                                <p class="mb-4">Sea Pearl Khavane offers best watersports Packages in Vengurla.</p>
+
+                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 p-1">
+                    <div class="card shadow m-2">
+                        <div class="row ">
+                            <div class="col-6 pb-0 mb-0 imgSports">
+                                <img src="img/sports/para.webp" class="img-fluid" alt="">
+                                <div class="centered">
+                                    <div class="text-block">From ₹900 /One Person</div>
+                                </div>
+                            </div>
+                            <div class="col-6 p-3">
+                                <h4 class="mb-3">Para Sailing</h4>
+                                <p class="mb-4">Sea Pearl Khavane offers best Para Sailing Packages in Vengurla.</p>
+
+                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 p-1">
+                    <div class="card shadow m-2">
+                        <div class="row ">
+                            <div class="col-6 pb-0 mb-0 imgSports">
+                                <img src="img/sports/dolphin.webp" class="img-fluid" alt="">
+                                <div class="centered">
+                                    <div class="text-block">From ₹1500 /Per Boat</div>
+                                </div>
+                            </div>
+                            <div class="col-6 p-3">
+                                <h4 class="mb-3">Dolphin Ride</h4>
+                                <p class="mb-4">Sea Pearl Khavane offers best Dolphin Ride Packages in Vengurla.</p>
+
+                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
     <!-- Testimonial Section Begin -->
     <section class="testimonial-section spad">
         <div class="container">
@@ -383,7 +577,7 @@
                                 </div>
                                 <h5> - Vedant Naidu</h5>
                             </div>
-                            
+
                         </div>
                         <div class="ts-item">
                             <p>After a construction project took longer than expected, my husband, my daughter and I
@@ -400,7 +594,7 @@
                                 </div>
                                 <h5> - Aniket Nangare</h5>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -456,22 +650,23 @@ if(isset($_POST['submit'])){
   $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
   if($sql==1){
      ?>
-                  <?php 
+<?php 
                         
                         $sql=mysqli_query($conn,"select * from SweetalertModal");
                        
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
-    <script> swal({
-        title: "<?php echo $arr['Sweetalert'];?>!",
-        // text: "You clicked the button!",
-        icon: "success",
-        timer: 5000,
-      });
-      </script>
-      
-      <?php } ?> 
-      <?php
+<script>
+swal({
+    title: "<?php echo $arr['Sweetalert'];?>!",
+    // text: "You clicked the button!",
+    icon: "success",
+    timer: 5000,
+});
+</script>
+
+<?php } ?>
+<?php
     header("location:index.php");
 }else {
     echo '<script>alert("oops...somthing went wrong");</script>';
@@ -491,7 +686,7 @@ if(isset($_POST['submi'])){
   $sql=mysqli_query($conn,"INSERT INTO `check_in`(`name`, `mobile_number`, `check_in`, `check_out`, `guests`, `room`) VALUES ('$name','$mobile_number','$check_in','$check_out','$guests','$room')");
   if($sql==1){
     echo '<script>alert("Successfully submitted");</script>';
-    header("location:index.php");
+    // header("location:index.php");
 }else {
     echo '<script>alert("oops...somthing went wrong");</script>';
 }

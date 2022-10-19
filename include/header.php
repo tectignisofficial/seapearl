@@ -8,8 +8,8 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="tn-left">
-                        <li><i class="fa fa-phone"></i> (91) 7588817360</li>
-                        <li><i class="fa fa-envelope"></i>seapearlkhavane@gmail.com</li>
+                        <li><a href="tel:+917588817360" style="color:#19191a"><i class="fa fa-phone"></i> (91) 7588817360</a></li>
+                        <li><a href="mailto:seapearlkhavane@gmail.com" style="color:#19191a"><i class="fa fa-envelope"></i>seapearlkhavane@gmail.com</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
@@ -31,7 +31,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                 <div class="col-lg-2">
                     <div class="logo">
                         <a href="index.php">
-                            <img src="img\logo\ddd.jpeg" alt="" class="header-logo">
+                            <img src="img\logo\hd-logo2.png" alt="" class="header-logo">
                         </a>
                     </div>
                 </div>
@@ -117,31 +117,31 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                             <div class="row">
                                 <div class="check-date col-6"> 
                                     <label for="date-in">Check In:</label>
-                                    <input type="text" class="date-input" name="check_in" id="check_in">
+                                    <input type="text" class="date-input" name="check_in" id="check_in" required>
                                     <i class="icon_calendar"></i>
                                 </div>
                                 <div class="check-date col-6">
                                     <label for="date-out">Check Out:</label>
-                                    <input type="text" class="date-input" name="check_out" id="check_out">
+                                    <input type="text" class="date-input" name="check_out" id="check_out" required>
                                     <i class="icon_calendar"></i>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 check-date">
                                     <label for="date-out">Name:</label>
-                                    <input type="text" class="form-control" name="name" id="name">
+                                    <input type="text" class="form-control" name="name" id="name" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 check-date">
                                     <label for="date-out">Mobile No:</label>
-                                    <input type="tel" class="form-control" name="number" id="number">
+                                    <input type="tel" class="form-control" name="number" id="number" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="select-option col-6">
                                     <label for="guest">Guests:</label>
-                                    <select name="guests" id="guests">
+                                    <select name="guests" id="guests" required>
                                         <option value="" selected disabled>Adults</option>
                                         <option value="0">0 Adults</option>
                                         <option value="1">1 Adults</option>
@@ -151,7 +151,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                                 </div>
                                 <div class="select-option col-6">
                                     <label for="room">Room:</label>
-                                    <select name="room" id="room">
+                                    <select name="room" id="room" required>
                                         <option value="" selected disabled>Room</option>
                                         <option value="1">1 Room</option>
                                         <option value="2">2 Room</option>
