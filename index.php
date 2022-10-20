@@ -32,8 +32,8 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
 
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <!-- <link rel="stylesheet" href="css/jquery.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/jquery.css" type="text/css">
 
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 
