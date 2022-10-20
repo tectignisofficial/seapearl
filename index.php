@@ -39,7 +39,7 @@
         font-size: 13px;
         font-weight: 700;
         padding: 12px 28px 15px;
-        background: #0474ac;
+        background: #ff5d5d;
         color: #ffffff;
         border: none;
         text-transform: uppercase;
@@ -54,7 +54,7 @@
         font-size: 13px;
         font-weight: 700;
         padding: 12px 28px 15px;
-        background: #0474ac;
+        background: #ff5d5d;
         color: #ffffff;
         border: none;
         text-transform: uppercase;

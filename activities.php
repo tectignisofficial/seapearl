@@ -88,7 +88,7 @@ if(isset($_POST['submi'])){
     font-size: 26px;
     display: block;
     margin-bottom: 20px;
-    color: #0474ac;
+    color: #ff5d5d;
 }
 .box_style_2 i {
     font-size: 52px;
