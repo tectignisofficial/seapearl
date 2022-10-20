@@ -598,15 +598,12 @@
                                     <i class="icon_star"></i>
                                     <i class="icon_star-half_alt"></i>
                                 </div>
-                                <h5> - Vedant Naidu</h5>
+                                <h5> - Monika Gore</h5>
                             </div>
 
                         </div>
                         <div class="ts-item">
-                            <p>After a construction project took longer than expected, my husband, my daughter and I
-                                needed a place to stay for a few nights. As a Chicago resident, we know a lot about our
-                                city, neighborhood and the types of housing options available and absolutely love our
-                                vacation at Sona Hotel.</p>
+                            <p>The facilities and food are very good,For me it was just amazing experience.</p>
                             <div class="ti-author">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -616,6 +613,21 @@
                                     <i class="icon_star-half_alt"></i>
                                 </div>
                                 <h5> - Aniket Nangare</h5>
+                            </div>
+
+                        </div>
+                        <div class="ts-item">
+                            <p>Easy to locate as it's closer to the highway. Been here with friends and we all thoroughly enjoyed our time here Hotel is nice and clean.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <!-- <i class="icon_star-half_alt"></i> -->
+                                </div>
+                                <h5> - Priti Sharma</h5>
                             </div>
 
                         </div>

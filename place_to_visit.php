@@ -53,6 +53,10 @@ include("include/config.php");
     h4 {
         font-size: 17px;
     }
+    .images{
+        width:100%;
+        margin:1rem;
+    }
     </style>
 </head>
 
@@ -136,9 +140,9 @@ include("include/config.php");
                                     Ski, banana ride, motor ride, parasailing, etc. rides are available. Also, you can
                                     get boat rides to reach the dolphin's spot. So come and visit this beach to enjoy
                                     the sea view and also water sports.</p>
-                                <img src="img/bhogwe-beach-vengurla.jpg" width="350" height="250"
+                                <img src="img/bhogwe-beach-vengurla.jpg" class="images"
                                     alt="bhogwe-beach-vengurla">
-                                <img src="img/bhogwe-beach-view.jpg" width="350" height="250" alt="bhogwe-beach-view">
+                                <img src="img/bhogwe-beach-view.jpg" class="images" alt="bhogwe-beach-view">
 
                             </div>
                         </div>
@@ -163,8 +167,8 @@ include("include/config.php");
                                 </p>
                                 <p align=" justify">So please come and must visit this beach to enjoy one of the best
                                     view of sea.</p>
-                                <img src="img/nivati-beach.jpg" width="350" height="250" alt="nivati-beach">
-                                <img src="img/nivati-beach-vengurla.jpg" width="350" height="250" alt="nivati-beach">
+                                <img src="img/nivati-beach.jpg" class="images" alt="nivati-beach">
+                                <img src="img/nivati-beach-vengurla.jpg" class="images" alt="nivati-beach">
                             </div>
                         </div>
                     </div>
@@ -189,7 +193,7 @@ include("include/config.php");
                                     parasailing, swimming etc. Also talk about food stalks which platter some delicious
                                     malvani cuisines. There are many restaurants, hotels are available near the beach.
                                     Must visit this beach to spend some nice time with family and friends.</p>
-                                <img src="img/vengurla beach.jpg" width="350" height="250" alt="vengurla beach">
+                                <img src="img/vengurla beach.jpg" class="images" alt="vengurla beach">
 
                             </div>
                         </div>
@@ -210,7 +214,7 @@ include("include/config.php");
                                     also one of the best beaches to see.
                                     Shiroda breach is very good to visit. So whenever you come to Vengurla must visit
                                     this beach to enjoy the best view of the sea.</p>
-                                <img src="img/shiroda-beach.jpg" width="350" height="250" alt="shiroda-beach">
+                                <img src="img/shiroda-beach.jpg" class="images" alt="shiroda-beach">
                             </div>
                         </div>
                     </div>
@@ -233,8 +237,8 @@ include("include/config.php");
                                     activities on this beach. </p>
                                 <p align=" justify">So whenever you are planning to come in Vengurla must visit this
                                     amazing beach for fun and many water sports activities.</p>
-                                <img src="img/mochemad-beach.jpg" width="350" height="250" alt="mochemad-beach">
-                                <img src="img/mochemad-beach-vengurla.jpg" width="350" height="250"
+                                <img src="img/mochemad-beach.jpg" class="images" alt="mochemad-beach">
+                                <img src="img/mochemad-beach-vengurla.jpg" class="images"
                                     alt="mochemad-beach-vengurla">
                             </div>
                         </div>
@@ -263,7 +267,7 @@ include("include/config.php");
                                     by devotees as well as tourists during the celebrations of Ganesh Chaturthi. There
                                     are many people are visit here in this festival of Lord Ganesha. This is one of the
                                     best and well known place to visit in Vengurla.</p>
-                                <img src="img/redi-ganesh-temple.jpg" width="350" height="250" alt="redi-ganesh-temple">
+                                <img src="img/redi-ganesh-temple.jpg" class="images" alt="redi-ganesh-temple">
 
                             </div>
                         </div>
@@ -284,9 +288,9 @@ include("include/config.php");
                                     temples in the world. This temple is west facing. This idol is in black stones. This
                                     temple gives you a peace and soothing experience. Villagers celebrates the festival
                                     of Rathasaptami in large number.</p>
-                                <img src="img/adinarayan-temple-parule.jpg" width="350" height="250"
+                                <img src="img/adinarayan-temple-parule.jpg" class="images"
                                     alt="adinarayan-temple-parule">
-                                <img src="img/adinarayan-temple.jpg" width="350" height="250" alt="adinarayan-temple">
+                                <img src="img/adinarayan-temple.jpg" class="images" alt="adinarayan-temple">
 
                             </div>
                         </div>
@@ -312,9 +316,9 @@ include("include/config.php");
                                     place surrounded by suru trees. So whenever you come to Vengurla must visit this
                                     very beautiful temple which makes you feel warm and give you very peaceful
                                     experience.</p>
-                                <img src="img/sagareshwar-temple-at-vengurla-sindudurg.jpg" width="350" height="250"
+                                <img src="img/sagareshwar-temple-at-vengurla-sindudurg.jpg" class="images"
                                     alt="sagreshwar-temple-vengurla">
-                                <img src="img/sagreshwar-temple-vengurla.jpg" width="350" height="250"
+                                <img src="img/sagreshwar-temple-vengurla.jpg" class="images"
                                     alt="sagreshwar-temple-vengurla">
                             </div>
                         </div>
@@ -338,9 +342,9 @@ include("include/config.php");
                                     of leather footwear made locally known as “chappals”. Devotees came here to fulfil
                                     their wishes from all over the world. So whenever you come to Vengurla must visit
                                     this temple. </p>
-                                <img src="img/vetoba-temple-near-bhogwe.jpg" width="350" height="250"
+                                <img src="img/vetoba-temple-near-bhogwe.jpg" class="images"
                                     alt="sagreshwar-temple-vengurla">
-                                <img src="img/vetoba-temple.jpg" width="350" height="250" alt="vetoba-temple">
+                                <img src="img/vetoba-temple.jpg" class="images" alt="vetoba-temple">
 
                             </div>
                         </div>
@@ -370,8 +374,8 @@ include("include/config.php");
                                     sparse jungle. It's totally safe. Just you have to pay a token fee. You can also
                                     spot some dolphins moving in sea. If you are planning to come in Vengurla must visit
                                     this Light house.</p>
-                                <img src="img/lighhouse-vengurla.jpg" width="350" height="250" alt="lighhouse-vengurla">
-                                <img src="img/vengurla_rock_lighthouse.jpg" width="350" height="250"
+                                <img src="img/lighhouse-vengurla.jpg" class="images" alt="lighhouse-vengurla">
+                                <img src="img/vengurla_rock_lighthouse.jpg" class="images"
                                     alt="vengurla_rock_lighthouse">
 
                             </div>
@@ -423,8 +427,8 @@ include("include/config.php");
                                     the site can also visit Aravali Beach, Medha village, Mhapan village, Pal and
                                     Palkarwadi village that are located in proximity of the site. So if you are planning
                                     to visit Vengula must visit this temples to fullfill yours wishes.</p>
-                                <img src="img/aravali-beach.jpg" width="350" height="250" alt="aravali-beach">
-                                <img src="img/aravali-beach-vengurla.jpg" width="350" height="250"
+                                <img src="img/aravali-beach.jpg" class="images" alt="aravali-beach">
+                                <img src="img/aravali-beach-vengurla.jpg" class="images"
                                     alt="aravali-beach-vengurla">
 
 
@@ -458,10 +462,10 @@ include("include/config.php");
                                 <p align=" justify">You can easily reach to this fort from malvan bus stand there are
                                     buses and rickshaws are available to reach jetty, you can reach jetty in 5 min,
                                     after then you have to take boat ride to reach Sindhudurg fort.</p>
-                                <img src="img/sindhudurg-fort.jpg" width="350" height="250"
+                                <img src="img/sindhudurg-fort.jpg" class="images"
                                     alt="sindhudurg-fort-malvan">
                                 <img src="img/sindhudurg-fort-malvan.jpg
-                                  " width="350" height="250" alt="sindhudurg-fort-malvan">
+                                  " class="images" alt="sindhudurg-fort-malvan">
 
                             </div>
                         </div>
@@ -484,8 +488,8 @@ include("include/config.php");
                                     gives you peaceful experience. Rock garden where you can find many kind of
                                     activities to enjoy like, toy train, other kids activities, also many other shops
                                     for snacks so this is best place for visit.</p>
-                                <img src="img/rock-garden.jpg" width="350" height="250" alt="rock-garden">
-                                <img src="img/rock-garden-malvan.jpg" width="350" height="250" alt="rock-garden-malvan">
+                                <img src="img/rock-garden.jpg" class="images" alt="rock-garden">
+                                <img src="img/rock-garden-malvan.jpg" class="images" alt="rock-garden-malvan">
                             </div>
                         </div>
                     </div>
@@ -507,8 +511,8 @@ include("include/config.php");
                                     also the beach is very wide so can get a calmness in some side of this beach. Chivla
                                     beach is one of the best places to visit in malvan. Adventure activities like
                                     snorkelling, diving, skiing and swimming are also available here.</p>
-                                <img src="img/chivala-beach.jpg" width="350" height="250" alt="chivala-beach">
-                                <img src="img/chivala-beach-photo.jpg" width="350" height="250"
+                                <img src="img/chivala-beach.jpg" class="images" alt="chivala-beach">
+                                <img src="img/chivala-beach-photo.jpg" class="images"
                                     alt="chivala-beach-photo">
                             </div>
                         </div>
@@ -532,8 +536,8 @@ include("include/config.php");
                                     eight different positions. This temple gives you a very warm experience. This temple
                                     is very popular temple in malvan so whenever you are planning to come to malvan must
                                     visit this temple for calm experience.</p>
-                                <img src="img/jay-ganesh-temple.jpg" width="350" height="250" alt="jay-ganesh-temple">
-                                <img src="img/jay-ganesh-temple-in-malvan.jpg" width="350" height="250"
+                                <img src="img/jay-ganesh-temple.jpg" class="images" alt="jay-ganesh-temple">
+                                <img src="img/jay-ganesh-temple-in-malvan.jpg" class="images"
                                     alt="jay-ganesh-temple-in-malvan">
                             </div>
                         </div>
@@ -554,8 +558,8 @@ include("include/config.php");
                                     this beach you can find various water sports activities like, snorkelling, scuba
                                     diving etc. so whenever you come to malvan you must visit this place with family and
                                     friend.</p>
-                                <img src="img/tarkarli-beach.jpg" width="350" height="250" alt="tarkarli-beach">
-                                <img src="img/tsunami-island-tarkarli.jpg" width="350" height="250"
+                                <img src="img/tarkarli-beach.jpg" class="images" alt="tarkarli-beach">
+                                <img src="img/tsunami-island-tarkarli.jpg" class="images"
                                     alt="tsunami-island-tarkarli">
                             </div>
                         </div>
@@ -577,8 +581,8 @@ include("include/config.php");
                                     famous for its white sand, clear water; again the dolphins are also attraction of
                                     tourists. Devagh sangam is also place to visit there. So this is the all in one
                                     place where you can find various activities to visit.</p>
-                                <img src="img/devbagh-beach.jpg" width="350" height="250" alt="devbagh-beach">
-                                <img src="img/devbagh-beach-dolphin-safari.jpg" width="350" height="250"
+                                <img src="img/devbagh-beach.jpg" class="images" alt="devbagh-beach">
+                                <img src="img/devbagh-beach-dolphin-safari.jpg" class="images"
                                     alt="devbagh-beach-dolphin-safari">
                             </div>
                         </div>
