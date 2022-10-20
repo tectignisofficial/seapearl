@@ -31,7 +31,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                 <div class="col-lg-2">
                     <div class="logo">
                         <a href="index.php">
-                            <img src="img\logo\hd-logo2.png" alt="" class="header-logo">
+                            <img src="img\logo\hd-logo2.webp" alt="" class="header-logo">
                         </a>
                     </div>
                 </div>

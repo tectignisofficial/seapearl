@@ -6,7 +6,7 @@
                     <div class="ft-about">
                         <div class="logo">
                             <a href="index.php">
-                                <img src="img\logo\ss.png" width="200" height="40" alt="" id="logo_footer" alt="">
+                                <img src="img\logo\ss.webp" width="200" height="40" alt="" id="logo_footer" alt="">
                             </a>
                         </div>
                         <p>We Provides Best Vacation Packages, <br> Book Now And Make Your Vacation Memorable <br> In Reasonable Prices.</p>
