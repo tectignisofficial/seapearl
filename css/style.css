@@ -2215,6 +2215,7 @@ ul, ol {
 	}
 	.hero-text {
 		margin-bottom: 40px;
+	    padding-top: 0px;
 	}
 }
 /* Tablet Device: 768px */
