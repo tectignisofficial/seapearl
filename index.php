@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/jquery.css" type="text/css">
 
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    
+
     <!-- <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> -->
     <link rel="stylesheet" href="css/slick.css" type="text/css">
 
@@ -685,7 +685,7 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 
 </body>
 <?php
