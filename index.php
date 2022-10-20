@@ -220,10 +220,10 @@
             </div>
         </div>
         <div class="hero-slider owl-carousel">
-            <!-- <div class="hs-item set-bg" data-setbg="img/hero/hero-4.jpg"></div> -->
-            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg"></div>
-            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg"></div>
-            <div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg"></div>
+            <!-- <div class="hs-item set-bg" data-setbg="img/hero/hero-4.webp"></div> -->
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.webp"></div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.webp"></div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-3.webp"></div>
         </div>
     </section>
     <!-- Hero Section End -->
@@ -251,10 +251,10 @@
                     <div class="about-pic">
                         <div class="row">
                             <div class="col-sm-6">
-                                <img src="img/about/about-1.jpg" alt="">
+                                <img src="img/about/about-1.webp" alt="">
                             </div>
                             <div class="col-sm-6">
-                                <img src="img/about/about-2.jpg" alt="">
+                                <img src="img/about/about-2.webp" alt="">
                             </div>
                         </div>
                     </div>
@@ -339,7 +339,7 @@
             <div class="hp-room-items">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b1.jpg">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b1.webp">
                             <div class="hr-text">
                                 <h3>Double Room</h3>
                                 <h2>199$<span>/Pernight</span></h2>
@@ -368,7 +368,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b2.jpg">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b2.webp">
                             <div class="hr-text">
                                 <h3>Premium King Room</h3>
                                 <h2>159$<span>/Pernight</span></h2>
@@ -397,7 +397,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b3.jpg">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b3.webp">
                             <div class="hr-text">
                                 <h3>Deluxe Room</h3>
                                 <h2>198$<span>/Pernight</span></h2>
@@ -426,7 +426,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b4.jpg">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b4.webp">
                             <div class="hr-text">
                                 <h3>Family Room</h3>
                                 <h2>299$<span>/Pernight</span></h2>
@@ -461,7 +461,7 @@
     <!-- Home Room Section End -->
 
     <!-- Video Section Begin -->
-    <section class="video-section set-bg" data-setbg="img/video-bg.jpg">
+    <section class="video-section set-bg" data-setbg="img/video-bg.webp">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
