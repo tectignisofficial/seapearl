@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
 
-    <!-- <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="css/jquery.css" type="text/css">
 
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
@@ -66,6 +66,9 @@
         bottom: 15px;
     }
 
+    .ui-datepicker{
+        z-index: 12 !important;
+    }
     .bk-btn2 {
         display: inline-block;
         font-size: 13px;
