@@ -21,24 +21,24 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 
     <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/fa.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/fa.css" type="text/css"> -->
 
     <!-- <link rel="stylesheet" href="css/elegant-icons.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/elegant.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/elegant.css" type="text/css"> -->
 
     <!-- <link rel="stylesheet" href="css/flaticon.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/flat.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/flat.css" type="text/css"> -->
 
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
 
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/jquery.css" type="text/css"> -->
 
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 
     <!-- <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/slick.css" type="text/css"> -->
 
     <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
     <link rel="stylesheet" href="css/style2.css" type="text/css">
