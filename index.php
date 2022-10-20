@@ -11,39 +11,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sea Pearl Khavane Resort | Index</title>
 
-    <!-- Google Font -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/fonts.css" type="text/css">
-
-    <!-- Css Styles -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-
-    <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/fa.css" type="text/css"> -->
-
-    <!-- <link rel="stylesheet" href="css/elegant-icons.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/elegant.css" type="text/css"> -->
-
-    <!-- <link rel="stylesheet" href="css/flaticon.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/flat.css" type="text/css"> -->
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <!-- <link rel="stylesheet" href="css/jquery.css" type="text/css"> -->
-
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-
-    <!-- <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/slick.css" type="text/css"> -->
-
-    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/style2.css" type="text/css">
-
-    <!-- <link rel="stylesheet" href="watersports.css" type="text/css"> -->
 
     <style>
     .img-fluid {
@@ -688,7 +655,41 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <!-- Google Font -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+
+    <!-- Css Styles -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="css/fa.css" type="text/css"> -->
+
+    <!-- <link rel="stylesheet" href="css/elegant-icons.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="css/elegant.css" type="text/css"> -->
+
+    <!-- <link rel="stylesheet" href="css/flaticon.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="css/flat.css" type="text/css"> -->
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/jquery.css" type="text/css"> -->
+
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="css/slick.css" type="text/css"> -->
+
+    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/style2.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="watersports.css" type="text/css"> -->
 
 </body>
 <?php
