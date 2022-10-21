@@ -30,9 +30,7 @@
     <!-- <link rel="stylesheet" href="css/flat.css" type="text/css"> -->
 
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+ 
     <!-- <link rel="stylesheet" href="css/jquery.css" type="text/css"> -->
 
     <!-- <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"> -->
@@ -68,7 +66,7 @@
     }
 
     .ui-datepicker{
-        z-index: 12 !important;
+        z-index: 999999999 !important;
     }
     .bk-btn2 {
         display: inline-block;
@@ -500,7 +498,7 @@
     <!-- Video Section End -->
 
     <!-- Services Section End -->
-    <!-- <section class="services-section spad">
+    <section class="services-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -515,7 +513,7 @@
                     <div class="card shadow m-2">
                         <div class="row ">
                             <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSports">
-                                <img src="img/sports/scuba.webp" class="img-fluid" alt="">
+                                <img src="img/sports/scuba1.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹1500 /Person</div>
                                 </div>
@@ -534,26 +532,7 @@
                     <div class="card shadow m-2">
                         <div class="row ">
                             <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
-                                <img src="img/sports/waterSport.webp" class="img-fluid" alt="">
-                                <div class="centered">
-                                    <div class="text-block">From ₹1500 /Person</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-12 colDiv">
-                                <h4 class="h4">Watersports</h4>
-                                <p class="p">Sea Pearl Khavane offers best watersports Packages in Vengurla.</p>
-
-                                <a href="rooms.php" class="bk-btn1">Book Now</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-12 p-1">
-                    <div class="card shadow m-2">
-                        <div class="row ">
-                            <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
-                                <img src="img/sports/para.webp" class="img-fluid" alt="">
+                                <img src="img/sports/para1.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹900 /One Person</div>
                                 </div>
@@ -572,7 +551,27 @@
                     <div class="card shadow m-2">
                         <div class="row ">
                             <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
-                                <img src="img/sports/dolphin.webp" class="img-fluid" alt="">
+                                <img src="img/sports/waterSport1.webp" class="img-fluid" alt="">
+                                <div class="centered">
+                                    <div class="text-block">From ₹1500 /Person</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 colDiv">
+                                <h4 class="h4">Watersports</h4>
+                                <p class="p">Sea Pearl Khavane offers best watersports Packages in Vengurla.</p>
+
+                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-sm-12 p-1">
+                    <div class="card shadow m-2">
+                        <div class="row ">
+                            <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
+                                <img src="img/sports/dolphin1.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹1500 /Per Boat</div>
                                 </div>
@@ -590,7 +589,7 @@
 
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- Services Section End -->
 
     <!-- Testimonial Section Begin -->
@@ -679,7 +678,9 @@
         </div>
     </div>
     <!-- Search model end -->
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
 
+<link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -689,7 +690,7 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 
 </body>
 <?php
