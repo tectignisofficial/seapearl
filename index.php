@@ -500,7 +500,7 @@
     <!-- Video Section End -->
 
     <!-- Services Section End -->
-    <section class="services-section spad">
+    <!-- <section class="services-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -590,7 +590,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Services Section End -->
 
     <!-- Testimonial Section Begin -->
