@@ -513,7 +513,7 @@
                     <div class="card shadow m-2">
                         <div class="row ">
                             <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSports">
-                                <img src="img/sports/scuba1.webp" class="img-fluid" alt="">
+                                <img src="img/sports/scuba2.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹1500 /Person</div>
                                 </div>
@@ -532,7 +532,7 @@
                     <div class="card shadow m-2">
                         <div class="row ">
                             <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
-                                <img src="img/sports/para1.webp" class="img-fluid" alt="">
+                                <img src="img/sports/para2.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹900 /One Person</div>
                                 </div>
@@ -551,7 +551,7 @@
                     <div class="card shadow m-2">
                         <div class="row ">
                             <div class="col-lg-6 col-sm-12 pb-0 mb-0 imgSport">
-                                <img src="img/sports/waterSport1.webp" class="img-fluid" alt="">
+                                <img src="img/sports/waterSport2.webp" class="img-fluid" alt="">
                                 <div class="centered">
                                     <div class="text-block">From ₹1500 /Person</div>
                                 </div>
