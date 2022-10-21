@@ -14,7 +14,7 @@
     <!-- Google Font -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/fonts.css" type="text/css"> -->
 
     <!-- Css Styles -->
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
@@ -35,7 +35,7 @@
     <!-- <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css"> -->
     <link rel="stylesheet" href="css/jquery.css" type="text/css">
 
-    <!-- <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 
     <!-- <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="css/slick.css" type="text/css"> -->
@@ -500,7 +500,7 @@
     <!-- Video Section End -->
 
     <!-- Services Section End -->
-    <!-- <section class="services-section spad">
+    <section class="services-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -590,7 +590,7 @@
 
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- Services Section End -->
 
     <!-- Testimonial Section Begin -->
