@@ -18,7 +18,7 @@
 
     <!-- Css Styles -->
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 
     <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="css/fa.css" type="text/css"> -->
@@ -171,7 +171,7 @@
     ?>
     <!-- Header End -->
 
-    <!-- Hero Section Begin -->
+     <!-- Hero Section Begin -->
     <section class="hero-section">
         <div class="container">
             <div class="row">
@@ -500,7 +500,7 @@
     <!-- Video Section End -->
 
     <!-- Services Section End -->
-    <section class="services-section spad">
+    <!-- <section class="services-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -590,7 +590,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Services Section End -->
 
     <!-- Testimonial Section Begin -->
