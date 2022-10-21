@@ -18,7 +18,7 @@
 
     <!-- Css Styles -->
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css" type="text/css"> -->
 
     <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="css/fa.css" type="text/css"> -->
@@ -35,11 +35,11 @@
     <!-- <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css"> -->
     <link rel="stylesheet" href="css/jquery.css" type="text/css">
 
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"> -->
 
     <!-- <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="css/slick.css" type="text/css"> -->
-    
+
 
     <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
     <link rel="stylesheet" href="css/style2.css" type="text/css">
