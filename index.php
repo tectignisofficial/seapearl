@@ -35,7 +35,7 @@
     <!-- <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css"> -->
     <link rel="stylesheet" href="css/jquery.css" type="text/css">
 
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"> -->
 
     <!-- <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="css/slick.css" type="text/css"> -->
