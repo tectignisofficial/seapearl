@@ -363,7 +363,7 @@
                         <p class="para">When your eyes feast on a visual delight of exotic tropical beauty, pristine
                             sand kissing the shores of the Khavane beach, you know you’ve reached, the Sea Pearl,
                             Snuggle up to the comfort.</p>
-                        <a href="rooms.php" class="bk-btn2 shadow">Book Now</a>
+                        <a href=" " class="bk-btn2 shadow"  data-toggle="modal" data-target="#exampleModal">Book Now</a>
                     </div>
                 </div>
             </div>

@@ -33,6 +33,15 @@ if(isset($_POST['submit'])){
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -86,7 +95,7 @@ if(isset($_POST['submit'])){
             <div class="row">
                 <div class="col-lg-8">
                     <div class="room-details-item">
-                        <img src="img/room/room-details-standard.jpg" alt="">
+                        <img src="img/room/room-details-nonac.jpg" style="border-radius:4%;" alt="">
                         <div class="rd-text">
                             <div class="rd-title">
                                 <h3>Standard Rooms</h3>
@@ -98,30 +107,18 @@ if(isset($_POST['submit'])){
                                         <i class="icon_star"></i>
                                         <i class="icon_star-half_alt"></i>
                                     </div>
-                                    <a href="#">Booking Now</a>
                                 </div>
                             </div>
-                            <h2>2000<span>/Pernight</span></h2>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td class="r-o">Size:</td>
-                                        <td>300 sq. ft.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Capacity:</td>
-                                        <td>Max persion 3</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Bed:</td>
-                                        <td>King Beds</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Services:</td>
-                                        <td>Wifi, Television, Parking, Bathroom, Restaurant, Loundry service ...</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div id="single_room_feat">
+                    <ul>
+                        <li><span class="material-symbols-outlined">wifi_2_bar</span> Wifi</li>
+                        <li><span class="material-symbols-outlined">tv</span> Plasma TV</li>
+                        <li><span class="material-symbols-outlined">king_bed</span> King size bed</li>
+                        <li><span class="material-symbols-outlined">bathtub</span> Shower</li>
+                        <li><span class="material-symbols-outlined">list_alt</span> Safe box</li>
+                    </ul>
+                </div>
+                            <h4>Description</h4>
                             <p class="f-para">Measuring a spacious 300 sq. ft., These Rooms in Bhogwe beach offer you an
                                 unparalleled experience of luxury.<br><br> proportioned and well maintained spacious 4
                                 air conditioned rooms, Each room having private balcony and sitting area. Room is
@@ -135,10 +132,34 @@ if(isset($_POST['submit'])){
                                 facilities.
                             </p>
 
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <ul class="list_ok">
+                                        <li>Coffee/tea maker</li>
+                                        <li>Wifi</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <ul class="list_ok">
+                                        <li>Towels</li>
+                                        <li>Toiletries</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <ul class="list_ok">
+
+                                        <li>Air-conditioning</li>
+                                        <li>Tv</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4" id="sidebar">
                     <div class="room-booking">
                         <h3>Your Reservation</h3>
                         <form method="POST">
@@ -189,9 +210,9 @@ if(isset($_POST['submit'])){
                             <button type="submit" name="submit" id="submit">Check Availability</button>
                         </form>
                     </div>
-                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- Room Details Section End -->

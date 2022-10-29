@@ -45,6 +45,12 @@ if(isset($_POST['submi'])){
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
+        .img-responsive {
+            width: 100%;
+            height: auto;
+            border-radius:4%;
+        }
+
         .room_desc {
             padding: 15px 0;
             border-top: 1px solid #ddd;
@@ -128,8 +134,8 @@ if(isset($_POST['submi'])){
 
         .box_style_3 {
             background-color: #fafbfd;
-            padding: 25px 25px 40px 25px;
-            margin-bottom: 25px;
+            padding: 40px 25px 65px 25px;
+            margin-bottom: 65px;
         }
 
         .general_fac {
@@ -296,9 +302,9 @@ if(isset($_POST['submi'])){
                 </div> -->
 
                 <div class="col-lg-9 col-md-8">
-                    <div class="room_desc clearfix row" onclick="location.href='ac-room-at-bhogwe-beach.html';">
+                    <div class="room_desc clearfix row" onclick="location.href='room-details.php';">
                         <div class="col-md-7">
-                            <img src="img/room/room-5.jpg" alt="" class="img-responsive">
+                            <img src="img/room/room-7.jpg" alt="" class="img-responsive">
                         </div>
                         <div class="col-md-5 room_list_desc">
                             <h3>Standard Rooms</h3>
@@ -310,29 +316,15 @@ if(isset($_POST['submi'])){
                     </div>
 
                     <div class="room_desc clearfix wow fadeIn row"
-                        onclick="location.href='ac-room-at-bhogwe-beach.html';" data-wow-delay="0.1s">
+                        onclick="location.href='room-details-ac.php';" data-wow-delay="0.1s">
                         <div class="col-md-7">
-                            <figure><img src="img/room/room-7.jpg" alt="" class="img-responsive">
+                            <figure><img src="img/room/room-5.jpg" alt="" class="img-responsive">
                             </figure>
                         </div>
                         <div class="col-md-5 room_list_desc">
-                            <h3>NON AC Room</h3>
-                            <p>Ambar Resort in Bhogwe, Vengurla having 3 spacious AC Rooms equipped with all
-                                standard ammenities. All basic requirements of guest are fullfiled in room. </p>
-
-                            <a href="#" class="btn_1_outline">Read more</a>
-                        </div>
-                    </div>
-
-                    <div class="room_desc clearfix row" onclick="location.href='ac-room-at-bhogwe-beach.html';">
-                        <div class="col-md-7">
-                            <img src="img/room/room-6.jpg" alt="" class="img-responsive">
-                        </div>
-                        <div class="col-md-5 room_list_desc">
                             <h3>AC Room</h3>
-                            <p>Ambar Resort in Vengurla having 4 spacious Rooms equipped with air conditioning
-                                facility. All standard ammenities are provided in rooms as per the basic need of
-                                tourists. </p>
+                            <p>Sea Pearl Khavane Resort in located at Khavane Beach, Vengurla having 3 spacious AC Rooms equipped with all
+                                standard amenities. All basic requirements of guest are fullfiled in room. </p>
 
                             <a href="#" class="btn_1_outline">Read more</a>
                         </div>

@@ -87,7 +87,7 @@ if(isset($_POST['submit'])){
             <div class="row">
                 <div class="col-lg-8">
                     <div class="room-details-item">
-                        <img src="img/room/room-details-ac.jpg" alt="">
+                        <img src="img/room/room-details-standard.jpg" style="border-radius:4%;" alt="">
                         <div class="rd-text">
                             <div class="rd-title">
                                 <h3>AC Room</h3>
