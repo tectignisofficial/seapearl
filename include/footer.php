@@ -34,10 +34,10 @@
                     <div class="ft-contact">
                         <h6>Contact Us</h6>
                         <ul>
-                            <li><i class="fa fa-phone"></i><a href="tel:+917588817360" style="color:#aaaab3">&nbsp;&nbsp; 7588817360 </a></li>
-                            <li><i class="fa fa-whatsapp"></i><a href="https://wa.me/+919370576066" style="color:#aaaab3">&nbsp;&nbsp; 9370576066 </a></li>
-                            <li><i class="fa fa-envelope"></i><a href="mailto:info.seapearlkhavane@gmail.com" style="color:#aaaab3">&nbsp;&nbsp; info.seapearlkhavane@gmail.com</a></li><br>
-                            <li><a href="https://g.page/sea-pearl-beach-resort-vengurla?share"  style="color:#aaaab3" target="_blank"> House no. 363, Near Old Maruti <br>mandir, Khavane Beach, mhapan,<br> Sagari Mahamarg, Vengurla, Dist-Sindhudurg, Maharashtra - 416522</a></li>
+                            <li><i class="fa fa-phone"></i><a href="tel:+917588817360" style="color:#aaaab3" target="_">&nbsp;&nbsp; 7588817360 </a></li>
+                            <li><i class="fa fa-whatsapp"></i><a href="https://wa.me/+919370576066" style="color:#aaaab3" target="_">&nbsp;&nbsp; 9370576066 </a></li>
+                            <li><i class="fa fa-envelope"></i><a href="mailto:info@seapearlkhavane.com" style="color:#aaaab3" target="_">&nbsp;&nbsp; info@seapearlkhavane.com</a></li><br>
+                            <li><a href="https://g.page/sea-pearl-beach-resort-vengurla?share"  style="color:#aaaab3" target="_"> House no. 363, Near Old Maruti <br>mandir, Khavane Beach, mhapan,<br> Sagari Mahamarg, Vengurla, Dist-Sindhudurg, Maharashtra - 416522</a></li>
                         </ul>
                     </div>
                 </div>

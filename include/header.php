@@ -42,9 +42,9 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                                 <li  class=" <?= $page == 'index.php' ? 'active':'' ?>"><a href="./index.php">Home</a></li>
                                 <li class=" <?= $page == 'about-us.php' ? 'active':'' ?>"><a href="./about-us.php">About Us</a></li>
                                 <li class=" <?= $page == 'rooms.php' ? 'active':'' ?>"><a href="./rooms.php">Rooms</a></li>
+                                <li class=" <?= $page == 'gallery.php' ? 'active':'' ?>"><a href="./gallery.php">Gallery</a></li>
                                 <li class=" <?= $page == 'activities.php' ? 'active':'' ?>"><a href="./activities.php">Activities</a></li>
                                 <li class=" <?= $page == 'place_to_visit.php' ? 'active':'' ?>"><a href="./place_to_visit.php">Place To Visit</a></li>
-                                <li class=" <?= $page == 'gallery.php' ? 'active':'' ?>"><a href="./gallery.php">Gallery</a></li>
                                 <li class=" <?= $page == 'contact.php' ? 'active':'' ?>"><a href="./contact.php">Contact</a></li>
                             </ul>
                         </nav>

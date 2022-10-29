@@ -58,6 +58,21 @@ if(isset($_POST['submit'])){
     ?>
     <!-- Header End -->
 
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Contact</h2>
+                        <div class="bt-option">
+                            <a href="index.php">Home</a>
+                            <span>Contact</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Contact Section Begin -->
     <section class="contact-section spad">
         <div class="container">

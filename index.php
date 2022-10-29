@@ -135,6 +135,7 @@
         left: 50%;
         bottom: 26px;
         transform: translate(-50%, -50%);
+        visibility: hidden !important;
     }
 
     .text-block {
@@ -393,9 +394,9 @@
                             </div>
                             <div class="col-lg-6 col-sm-12 colDiv">
                                 <h4 class="h4">Scuba Diving</h4>
-                                <p class="p">Sea Pearl Khavane offers best Scuba Diving Packages in Vengurla.</p>
+                                <p class="p">Sea Pearl Khavane offers best Scuba Diving Packages in tarkarli malvan devbag.</p>
 
-                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                                <!-- <a href="rooms.php" class="bk-btn1">Book Now</a> -->
                             </div>
 
                         </div>
@@ -412,9 +413,9 @@
                             </div>
                             <div class="col-lg-6 col-sm-12 colDiv">
                                 <h4 class="h4">Para Sailing</h4>
-                                <p class="p">Sea Pearl Khavane offers best Para Sailing Packages in Vengurla.</p>
+                                <p class="p">Sea Pearl Khavane offers best Para Sailing Packages in tarkarli malvan devbag.</p>
 
-                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                                <!-- <a href="rooms.php" class="bk-btn1">Book Now</a> -->
                             </div>
 
                         </div>
@@ -431,9 +432,9 @@
                             </div>
                             <div class="col-lg-6 col-sm-12 colDiv">
                                 <h4 class="h4">Watersports</h4>
-                                <p class="p">Sea Pearl Khavane offers best watersports Packages in Vengurla.</p>
+                                <p class="p">Sea Pearl Khavane offers best watersports Packages in tarkarli malvan devbag.</p>
 
-                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                                <!-- <a href="rooms.php" class="bk-btn1">Book Now</a> -->
                             </div>
 
                         </div>
@@ -451,9 +452,9 @@
                             </div>
                             <div class="col-lg-6 col-sm-12 colDiv">
                                 <h4 class="h4">Dolphin Ride</h4>
-                                <p class="p">Sea Pearl Khavane offers best Dolphin Ride Packages in Vengurla.</p>
+                                <p class="p">Sea Pearl Khavane offers best Dolphin Ride Packages in tarkarli malvan devbag.</p>
 
-                                <a href="rooms.php" class="bk-btn1">Book Now</a>
+                                <!-- <a href="rooms.php" class="bk-btn1">Book Now</a> -->
                             </div>
 
                         </div>

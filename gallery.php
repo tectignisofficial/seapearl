@@ -81,7 +81,7 @@ if(isset($_POST['submi'])){
                     <div class="breadcrumb-text">
                         <h2>Gallery</h2>
                         <div class="bt-option">
-                            <a href="./index.html">Home</a>
+                            <a href="index.php">Home</a>
                             <span>Gallery</span>
                         </div>
                     </div>

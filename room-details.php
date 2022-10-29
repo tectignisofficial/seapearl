@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
                     <div class="breadcrumb-text">
                         <h2>Our Rooms</h2>
                         <div class="bt-option">
-                            <a href="./home.html">Home</a>
+                            <a href="index.php">Home</a>
                             <span>Rooms</span>
                         </div>
                     </div>

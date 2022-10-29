@@ -11,7 +11,7 @@ include("include/config.php");
     <meta name="keywords" content="Sona, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sea Pearl Khavane Resort | Gallery</title>
+    <title>Sea Pearl Khavane Resort | Place To Visit</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
@@ -84,7 +84,7 @@ include("include/config.php");
                     <div class="breadcrumb-text">
                         <h2>Place To Visit</h2>
                         <div class="bt-option">
-                            <a href="./index.php">Home</a>
+                            <a href="index.php">Home</a>
                             <span>Place To Visit</span>
                         </div>
                     </div>
