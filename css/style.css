@@ -39,7 +39,7 @@ p {
 	margin: 0 0 15px 0;
 }
 img {
-	/* max-width: 140%; */
+	max-width: 100%;
 }
 input:focus, select:focus, button:focus, textarea:focus {
 	outline: none;
@@ -56,9 +56,12 @@ ul, ol {
 .header-logo{
 	height: 100%;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (min-width: 786px) and (max-width: 1554px) {
 	.header-logo{
 		width: 65% !important;
+	}
+	#single_room_feat ul li {
+		display: inline-table;
 	}
 }
 /*---------------------
@@ -250,7 +253,7 @@ ul, ol {
     width:1%;
 	vertical-align:middle;
 	text-align:center;
-	padding: 0 10px 20px 10px;
+	padding: 10px 30px 10px 30px;
 	white-space:nowrap;
 }
 #single_room_feat ul li:last-child{
@@ -2250,6 +2253,9 @@ ul, ol {
 	.testimonial-slider.owl-carousel .owl-nav button.owl-next {
 		right: -30px;
 	}
+	#single_room_feat ul li {
+		display: inline-table;
+	}
 	.hp-room-items {
 		margin: 0;
 	}
@@ -2265,6 +2271,9 @@ ul, ol {
 	}
 	.room-details-item .rd-text .rd-title {
 		margin-bottom: 25px;
+	}
+	#single_room_feat ul li {
+		display: inline-table;
 	}
 	.room-details-item .rd-text .rd-title h3 {
 		float: none;
@@ -2313,6 +2322,9 @@ ul, ol {
 	}
 	.rd-reviews .review-item .ri-text, .blog-details-text .comment-option .single-comment-item.second-comment .sc-text, .blog-details-text .comment-option .single-comment-item.first-comment .sc-text {
 		padding-left: 0;
+	}
+	#single_room_feat ul li {
+		display: inline-table;
 	}
 	.blog-details-text .comment-option .single-comment-item.reply-comment {
 		padding-left: 30px;

@@ -54,6 +54,16 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+    @media only screen and (min-width: 786px) and (max-width: 1254px) {
+	.header-logo{
+		width: 65% !important;
+	}
+	#single_room_feat ul li {
+		display: inline-table;
+	}
+}
+    </style>
 </head>
 
 <body>
@@ -93,7 +103,7 @@ if(isset($_POST['submit'])){
     <section class="room-details-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-md-8">
                     <div class="room-details-item">
                         <img src="img/room/room-details-nonac.jpg" style="border-radius:4%;" alt="">
                         <div class="rd-text">
@@ -109,57 +119,60 @@ if(isset($_POST['submit'])){
                                     </div>
                                 </div>
                             </div>
-                            <div id="single_room_feat">
-                    <ul>
-                        <li><span class="material-symbols-outlined">wifi_2_bar</span> Wifi</li>
-                        <li><span class="material-symbols-outlined">tv</span> Plasma TV</li>
-                        <li><span class="material-symbols-outlined">king_bed</span> King size bed</li>
-                        <li><span class="material-symbols-outlined">bathtub</span> Shower</li>
-                        <li><span class="material-symbols-outlined">list_alt</span> Safe box</li>
-                    </ul>
-                </div>
-                            <h4>Description</h4>
-                            <p class="f-para">Measuring a spacious 300 sq. ft., These Rooms in Bhogwe beach offer you an
-                                unparalleled experience of luxury.<br><br> proportioned and well maintained spacious 4
-                                air conditioned rooms, Each room having private balcony and sitting area. Room is
-                                attached with western style toilet and bath. Double bed with white bedsheet on
-                                comfortable matressess. Tea maker, Towels and toilatories provided inside room.
-                                All rooms are furnished with double/twin beds with comfortable matressess, wardrobe,
-                                fan, AC, electric hot shower, flat TV with cable channels.</p>
-                            <h4>Room facilities</h4>
-                            <p>
-                                AC Rooms in Sea Pearl Khavane Resort are equpped with all basic ammenities and
-                                facilities.
-                            </p>
-
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <ul class="list_ok">
-                                        <li>Coffee/tea maker</li>
-                                        <li>Wifi</li>
-
-                                    </ul>
-                                </div>
-                                <div class="col-md-4 col-sm-4">
-                                    <ul class="list_ok">
-                                        <li>Towels</li>
-                                        <li>Toiletries</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4 col-sm-4">
-                                    <ul class="list_ok">
-
-                                        <li>Air-conditioning</li>
-                                        <li>Tv</li>
-
-                                    </ul>
-                                </div>
-                            </div>
-
                         </div>
+                        <div class="row">
+
+                            <div class="col-md-8" id="single_room_feat">
+                                <ul>
+                                    <li><span class="material-symbols-outlined">wifi_2_bar</span> Wifi</li>
+                                    <li><span class="material-symbols-outlined">tv</span> Plasma TV</li>
+                                    <li><span class="material-symbols-outlined">king_bed</span> King size bed</li>
+                                    <li><span class="material-symbols-outlined">bathtub</span> Shower</li>
+                                    <li><span class="material-symbols-outlined">list_alt</span> Safe box</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h4>Description</h4>
+                        <p class="f-para">Measuring a spacious 300 sq. ft., These Rooms in Bhogwe beach offer you an
+                            unparalleled experience of luxury.<br><br> proportioned and well maintained spacious 4
+                            air conditioned rooms, Each room having private balcony and sitting area. Room is
+                            attached with western style toilet and bath. Double bed with white bedsheet on
+                            comfortable matressess. Tea maker, Towels and toilatories provided inside room.
+                            All rooms are furnished with double/twin beds with comfortable matressess, wardrobe,
+                            fan, AC, electric hot shower, flat TV with cable channels.</p>
+                        <h4>Room facilities</h4>
+                        <p>
+                            AC Rooms in Sea Pearl Khavane Resort are equpped with all basic ammenities and
+                            facilities.
+                        </p>
+
+                        <div class="col-md-8">
+                            <div class="col-md-4 col-sm-4">
+                                <ul class="list_ok">
+                                    <li>Coffee/tea maker</li>
+                                    <li>Wifi</li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <ul class="list_ok">
+                                    <li>Towels</li>
+                                    <li>Toiletries</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <ul class="list_ok">
+
+                                    <li>Air-conditioning</li>
+                                    <li>Tv</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-lg-4" id="sidebar">
+                <div class="col-lg-4">
                     <div class="room-booking">
                         <h3>Your Reservation</h3>
                         <form method="POST">
@@ -212,6 +225,8 @@ if(isset($_POST['submit'])){
                     </div>
                 </div>
             </div>
+
+        </div>
         </div>
         </div>
     </section>
