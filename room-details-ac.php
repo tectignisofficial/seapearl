@@ -34,6 +34,10 @@ if(isset($_POST['submit'])){
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -46,6 +50,16 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+    @media only screen and (min-width: 786px) and (max-width: 1254px) {
+	.header-logo{
+		width: 65% !important;
+	}
+	#single_room_feat ul li {
+		display: inline-table;
+	}
+}
+    </style>
 </head>
 
 <body>
@@ -98,31 +112,22 @@ if(isset($_POST['submit'])){
                                         <i class="icon_star"></i>
                                         <i class="icon_star"></i>
                                         <i class="icon_star-half_alt"></i>
-                                    </div>
-                                    <a href="#">Booking Now</a>
                                 </div>
                             </div>
-                            <h2>2000<span>/Pernight</span></h2>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td class="r-o">Size:</td>
-                                        <td>30 ft</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Capacity:</td>
-                                        <td>Max persion 5</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Bed:</td>
-                                        <td>King Beds</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Services:</td>
-                                        <td>Wifi, Television, Parking, Bathroom, Restaurant,  Loundry service ...</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+
+                            <div class="row">
+
+                            <div class="col-md-8" id="single_room_feat">
+                                <ul>
+                                    <li><span class="material-symbols-outlined">wifi_2_bar</span> Wifi</li>
+                                    <li><span class="material-symbols-outlined">tv</span> Plasma TV</li>
+                                    <li><span class="material-symbols-outlined">king_bed</span> King size bed</li>
+                                    <li><span class="material-symbols-outlined">bathtub</span> Shower</li>
+                                    <li><span class="material-symbols-outlined">list_alt</span> Safe box</li>
+                                </ul>
+                            </div>
+                        </div>
+                                                    
                             <h4>Standard Rooms With Breakfast And Dinner</h4>
                             <p class="f-para"></p>
                             <p>Book Now,</P>
