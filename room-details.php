@@ -55,14 +55,15 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
-    @media only screen and (min-width: 786px) and (max-width: 1254px) {
-	.header-logo{
-		width: 65% !important;
-	}
-	#single_room_feat ul li {
-		display: inline-table;
-	}
-}
+        @media only screen and (min-width: 786px) and (max-width: 1254px) {
+            .header-logo {
+                width: 65% !important;
+            }
+
+            #single_room_feat ul li {
+                display: inline-table;
+            }
+        }
     </style>
 </head>
 

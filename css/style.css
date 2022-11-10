@@ -2,7 +2,7 @@
 
 html, body {
 	height: 100%;
-	font-family: "Cabin", sans-serif;
+	font-family: "serif";
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Lora", serif;
+	font-family: "serif";
 }
 h1 {
 	font-size: 70px;
@@ -32,14 +32,14 @@ h6 {
 }
 p {
 	font-size: 16px;
-	font-family: "Cabin", sans-serif;
+	font-family: "serif";
 	color: #6b6b6b;
 	font-weight: 400;
 	line-height: 26px;
 	margin: 0 0 15px 0;
 }
 img {
-	max-width: 100%;
+	max-width: 130%;
 }
 input:focus, select:focus, button:focus, textarea:focus {
 	outline: none;
@@ -58,7 +58,7 @@ ul, ol {
 }
 @media only screen and (min-width: 786px) and (max-width: 1554px) {
 	.header-logo{
-		width: 65% !important;
+		width: 130% !important;
 	}
 	#single_room_feat ul li {
 		display: inline-table;
@@ -418,7 +418,7 @@ ul, ol {
 	visibility: visible;
 }
 .menu-item .nav-menu .mainmenu li a {
-	font-size: 16px;
+	font-size: 20px;
 	color: #19191a;
 	margin-right: 42px;
 	font-weight: 500;
@@ -764,7 +764,7 @@ ul, ol {
 	transition: all 0.2s;
 }
 .hp-room-items .hp-room-item .hr-text h2 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "serif";
 	font-size: 16px;
 	font-weight: 400;
 	color: #ffffff;
@@ -910,7 +910,7 @@ ul, ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
-	font-family: "Cabin", sans-serif;
+	font-family: "serif";
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-contact ul li {
@@ -925,7 +925,7 @@ ul, ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
-	font-family: "Cabin", sans-serif;
+	font-family: "serif";
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter p {
@@ -1183,7 +1183,7 @@ ul, ol {
 	margin-bottom: 14px;
 }
 .room-item .ri-text h3 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "serif";
 	font-size: 14px;
 	font-weight: 400;
 	color: #19191a;
@@ -1274,7 +1274,7 @@ ul, ol {
 	margin-bottom: 25px;
 }
 .room-details-item .rd-text h2 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "serif";
 	font-size: 16px;
 	font-weight: 400;
 	color: #19191a;
@@ -2012,7 +2012,7 @@ ul, ol {
 	.canvas-open {
 		position: absolute;
 		right: 40px;
-		top: 25px;
+		top: 15px;
 		font-size: 22px;
 		width: 30px;
 		height: 30px;

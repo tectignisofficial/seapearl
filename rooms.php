@@ -110,7 +110,7 @@ if(isset($_POST['submi'])){
 
         .box_style_2 {
             text-align: center;
-            padding: 20px 20px 20px 20px;
+            padding: 40px 20px 40px 20px;
             border: 1px solid #ddd;
             margin-top: 40px;
         }
@@ -134,8 +134,9 @@ if(isset($_POST['submi'])){
 
         .box_style_3 {
             background-color: #fafbfd;
-            padding: 40px 25px 65px 25px;
-            margin-bottom: 65px;
+            padding: 40px 25px 60px 25px;
+            margin-bottom: 70px;
+            font-size: 17px;
         }
 
         .general_fac {

@@ -51,14 +51,15 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
-    @media only screen and (min-width: 786px) and (max-width: 1254px) {
-	.header-logo{
-		width: 65% !important;
-	}
-	#single_room_feat ul li {
-		display: inline-table;
-	}
-}
+        @media only screen and (min-width: 786px) and (max-width: 1254px) {
+            .header-logo {
+                width: 65% !important;
+            }
+
+            #single_room_feat ul li {
+                display: inline-table;
+            }
+        }
     </style>
 </head>
 
@@ -112,86 +113,84 @@ if(isset($_POST['submit'])){
                                         <i class="icon_star"></i>
                                         <i class="icon_star"></i>
                                         <i class="icon_star-half_alt"></i>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="row">
-
+                        </div>
+                        <div class="row">
                             <div class="col-md-8" id="single_room_feat">
                                 <ul>
                                     <li><span class="material-symbols-outlined">wifi_2_bar</span> Wifi</li>
                                     <li><span class="material-symbols-outlined">tv</span> Plasma TV</li>
-                                    <li><span class="material-symbols-outlined">king_bed</span> King size bed</li>
+                                    <li><span class="material-symbols-outlined">king_bed</span> King size bed
+                                    </li>
                                     <li><span class="material-symbols-outlined">bathtub</span> Shower</li>
                                     <li><span class="material-symbols-outlined">list_alt</span> Safe box</li>
                                 </ul>
                             </div>
                         </div>
-                                                    
-                            <h4>Standard Rooms With Breakfast And Dinner</h4>
-                            <p class="f-para"></p>
-                            <p>Book Now,</P>
-                            <p>Risk-Free Booking!</P>
-                            <p>Complimentary Breakfast is available.</P>
-                            <p>Complimentary Lunch Or Dinner is available.</P>
-                            <p>15% discount on F&B Services is available. Drinks will include Soft Drinks.</P>
-                            <p>standard room in our hotel</p>
-                        </div>
-                    </div>
+                        <h4>Standard Rooms With Breakfast And Dinner</h4>
+                        <p class="f-para"></p>
+                        <p>Book Now,</P>
+                        <p>Risk-Free Booking!</P>
+                        <p>Complimentary Breakfast is available.</P>
+                        <p>Complimentary Lunch Or Dinner is available.</P>
+                        <p>15% discount on F&B Services is available. Drinks will include Soft Drinks.</P>
+                        <p>standard room in our hotel</p>
+                    </div>                   
                 </div>
                 <div class="col-lg-4">
-                    <div class="room-booking">
-                        <h3>Your Reservation</h3>
-                        <form method="POST">
-                            <div class="row">
-                                <div class="check-date col-6">
-                                    <label for="date-in">Check In:</label>
-                                    <input type="text" class="date-input" name="check_in" id="check_in">
-                                    <i class="icon_calendar"></i>
+                        <div class="room-booking">
+                            <h3>Your Reservation</h3>
+                            <form method="POST">
+                                <div class="row">
+                                    <div class="check-date col-6">
+                                        <label for="date-in">Check In:</label>
+                                        <input type="text" class="date-input" name="check_in" id="check_in">
+                                        <i class="icon_calendar"></i>
+                                    </div>
+                                    <div class="check-date col-6">
+                                        <label for="date-out">Check Out:</label>
+                                        <input type="text" class="date-input" name="check_out" id="check_out">
+                                        <i class="icon_calendar"></i>
+                                    </div>
                                 </div>
-                                <div class="check-date col-6">
-                                    <label for="date-out">Check Out:</label>
-                                    <input type="text" class="date-input" name="check_out" id="check_out">
-                                    <i class="icon_calendar"></i>
+                                <div class="row">
+                                    <div class="col-12 check-date">
+                                        <label for="date-out">Name:</label>
+                                        <input type="text" class="form-control" name="name" id="name">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 check-date">
-                                    <label for="date-out">Name:</label>
-                                    <input type="text" class="form-control" name="name" id="name">
+                                <div class="row">
+                                    <div class="col-12 check-date">
+                                        <label for="date-out">Mobile No:</label>
+                                        <input type="tel" class="form-control" name="number" id="number">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 check-date">
-                                    <label for="date-out">Mobile No:</label>
-                                    <input type="tel" class="form-control" name="number" id="number">
+                                <div class="row">
+                                    <div class="select-option col-6">
+                                        <label for="guest">Guests:</label>
+                                        <select name="guests" id="guests">
+                                            <option value="" selected disabled>Adults</option>
+                                            <option value="0">0 Adults</option>
+                                            <option value="1">1 Adults</option>
+                                            <option value="2">2 Adults</option>
+                                            <option value="3">3 Adults</option>
+                                        </select>
+                                    </div>
+                                    <div class="select-option col-6">
+                                        <label for="room">Room:</label>
+                                        <select name="room" id="room">
+                                            <option value="" selected disabled>Room</option>
+                                            <option value="1">1 Room</option>
+                                            <option value="2">2 Room</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="select-option col-6">
-                                    <label for="guest">Guests:</label>
-                                    <select name="guests" id="guests">
-                                        <option value="" selected disabled>Adults</option>
-                                        <option value="0">0 Adults</option>
-                                        <option value="1">1 Adults</option>
-                                        <option value="2">2 Adults</option>
-                                        <option value="3">3 Adults</option>
-                                    </select>
-                                </div>
-                                <div class="select-option col-6">
-                                    <label for="room">Room:</label>
-                                    <select name="room" id="room">
-                                        <option value="" selected disabled>Room</option>
-                                        <option value="1">1 Room</option>
-                                        <option value="2">2 Room</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <button type="submit" name="submit" id="submit">Check Availability</button>
-                        </form>
+                                <button type="submit" name="submit" id="submit">Check Availability</button>
+                            </form>
+                        </div>
                     </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -245,4 +244,5 @@ if(isset($_POST['submi'])){
           
   }
 ?>
+
 </html>
